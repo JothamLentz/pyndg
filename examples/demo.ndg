@@ -1,0 +1,1987 @@
+Version 8.4
+Diagram_Title "Internet Edge - Physical"
+Notes1 
+Notes2 
+Page_Settings_Table Width Height Orientation Pos_X Pos_Y Draw_Scale Fine_Scale Created_By Create_Date Updated_By Update_Date Adjust_X Adjust_Y Page_Locked
+ page_settings 3000 2000 landscape -4 -201 0.5 2 Jason 08/11/2017 jlentz 11/18/2020 0 0 Unlocked
+Colours_Table Bkgnd Link_Text Grid Float_Foregnd Float_Backgnd
+ colours &hFFFFFF& &hFF0000& &hFEEDED& &h0& &hFCD68F&
+Text_Styles_Table Font Size Bold Italic UL ST FColour BColour F_Transpcy B_Transpcy
+ text_style Normal Calibri 10 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Heading1 "Calibri Light" 16 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Heading2 "Calibri Light" 13 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Title "Calibri Light" 28 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Subtitle Calibri 11 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Small Calibri 6 False False False False &h0& &hFFFFFF& 255 0 
+ text_style "Port Label" "Microsoft Sans Serif" 7 False False False False &h0& &hFFFFFF& 255 0 
+Obj_Table Index Type X Y Caption_Lbl Float_text Hyperlink Parent Addr_Lbl X_scale Y_scale Layer Type_bits Rotate Rflip Backgnd Width Height Locked Toolset Var1 Var2
+ object 1 linknode 20 -23 7 ! ! -5 8 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 2 linknode 20 25 0 ! ! -1 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 3 linknode -27 25 0 ! ! -3 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 4 linknode -27 -23 0 ! ! -7 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 5 linknode 20 -262 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 6 linknode 1634 -262 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 7 linknode 1634 -23 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 8 linknode 20 -226 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 9 linknode 1634 -226 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 10 ASA 1140 750 9 ! ! 0 10 1 1 1 0 0 0 false 100 125 false 0 ! !
+ object 11 ASA 1140 1206 11 ! ! 0 12 1 1 1 0 0 0 false 100 125 false 0 ! !
+ object 12 linknode 20 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 13 linknode 1634 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 14 linknode 819 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 15 linknode 819 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 16 logo 130 -170 5 ! ! -5 6 2 2 1 0 0 0 false 100 78 true 0 ! !
+ object 17 linknode 1632 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 18 linknode 20 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 19 "Workgroup Switch" 1388 892 13 ! ! 0 14 1.8 1.8 1 0 0 0 false 139 65 false 0 ! !
+ object 20 routerc1 1626 750 15 ! ! 0 16 1 1 1 0 0 0 false 100 61 false 0 ! !
+ object 21 routerc1 1626 1206 17 ! ! 0 18 1 1 1 0 0 0 false 100 61 false 0 ! !
+ object 22 "Workgroup Switch" 1388 1044 19 ! ! 0 20 1.8 1.8 1 0 0 0 false 139 65 false 0 ! !
+ object 23 "Workgroup Switch" 904 1044 23 ! ! 0 24 1.8 1.8 1 0 0 0 false 139 65 false 0 ! !
+ object 24 "Workgroup Switch" 904 892 21 ! ! 0 22 1.8 1.8 1 0 0 0 false 139 65 false 0 ! !
+ object 25 cloud-line.wmf 2154 968 25 ! ! 0 0 2 2 1 0 0 0 false 219 128 false 0 ! !
+ object 26 "Workgroup Switch" 1862 1044 29 ! ! 0 30 1.8 1.8 1 0 0 0 false 139 65 false 3 ! !
+ object 27 "Workgroup Switch" 1862 892 27 ! ! 0 28 1.8 1.8 1 0 0 0 false 139 65 false 0 ! !
+ object 28 linknode 2154 892 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 29 linknode 2154 1044 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 30 linknode 1862 748 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 31 linknode 1862 1206 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 32 linknode 1418 748 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 33 linknode 1418 1206 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 34 linknode 1360 748 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 35 linknode 1360 1206 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 36 linknode 906 1206 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 37 linknode 904 748 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 38 "web server.wmf" 636 750 31 ! ! 0 32 2 2 1 0 0 0 false 79 81 false 0 ! !
+ object 39 "web server.wmf" 636 892 33 ! ! 0 34 2 2 1 0 0 0 false 79 81 false 0 ! !
+ object 40 "web server.wmf" 636 1044 35 ! ! 0 36 1.975 2 1 0 0 0 false 78 81 false 0 ! !
+ object 41 "web server.wmf" 636 1206 37 ! ! 0 38 2 2 1 0 0 0 false 79 81 false 0 ! !
+ object 42 Etherchannel1 708 806 48 ! ! 0 0 2 2 1 16 0 0 false 20 80 false 0 ! !
+ object 43 Etherchannel1 708 916 0 ! ! 0 51 2 2 1 16 0 0 false 20 80 false 0 ! !
+ object 44 Etherchannel1 708 1022 0 ! ! 0 52 2 2 1 16 0 0 false 20 80 false 0 ! !
+ object 45 Etherchannel1 708 1144 0 ! ! 0 53 2 2 1 16 0 0 false 20 80 false 0 ! !
+ object 46 linknode 1056 634 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 47 linknode 1212 634 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 48 whitecircle 1136 964 0 ! ! 0 0 2 2 4 16 0 0 false 200 200 false 0 ! !
+ object 49 textbox 1010 380 49 ! ! 0 55 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 50 linknode 1010 960 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 51 linknode 1082 960 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 52 "Red Zone" 1548 930 0 ! ! 0 0 5.226665 4.98 5 16 0 0 false 784 747 false 0 ! !
+ object 53 "Green Zone" 848 930 0 ! ! 0 0 3.653332 4.98 5 16 0 0 false 548 747 false 0 ! !
+ object 54 textbox 2084 1490 56 ! ! 0 65 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ no_object 55
+ object 56 textbox 1874 1828 76 ! ! 0 77 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 57 linknode 1644 1828 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 58 textbox 1816 380 78 ! ! 0 79 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 59 linknode 1816 550 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 60 Link 420 1190 80 ! <<page>>2 0 81 1.397 1.39 0 16 0 0 false 112 111 false 0 ! !
+ object 61 textbox 682 1408 82 ! ! 0 83 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 62 textbox 2774 1826 86 ! ! 0 87 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 63 textbox 738 1540 84 ! ! 0 85 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 64 linknode 2992 1826 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 65 linknode 2990 1990 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 66 linknode 2774 1992 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 67 textbox 2524 1826 88 ! ! 0 89 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 68 linknode 2524 1972 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 69 textbox 260 606 0 ! ! 0 91 2.65 2.55 1 16 0 0 false 236 156 false 0 ! !
+ object 70 textbox 320 750 92 ! ! 0 93 2.65 2.55 1 16 0 0 false 236 156 false 0 ! !
+ object 71 textbox 356 896 94 ! ! 0 95 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 72 textbox 330 1052 97 ! ! 0 98 2.8 3 1 16 0 0 false 249 183 false 0 ! !
+ object 73 textbox 150 1527 96 ! ! 0 99 2.786885 2.786885 1 16 0 0 false 248 170 false 0 ! !
+ object 74 linknode 140 1790 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 75 textbox 2762 314 101 ! ! 0 102 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 76 linknode 2762 150 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 77 textbox 314 1648 103 ! ! 0 104 2.75 2.55 0 16 0 0 false 245 156 false 0 ! !
+ object 78 switch 1490 430 106 ! ! 0 107 2 2 0 0 0 0 false 155 72 false 0 ! !
+ object 79 "Multilayer switch" 978 218 108 ! ! 0 109 2 2 0 0 0 0 false 138 134 false 0 ! !
+Label_Table Index X Y Text Font_Name Size Bold Italic UL ST Colour Parent_Object Type Backgnd Locked Rotate Ftranspcy Btranspcy Layer Style Parent_Link Link_pos Link_Seg Xoffset Yoffset
+ label 1 851 -108 "Last Updated on $changedate by $changename" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 2 38 -61 "Filename: $filename" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 3 262 -208 "Internet Edge - Physical Diagram" "calibri light" 56 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Title 0 0 0 false
+ label 4 38 -108 "Created on $createdate by $createname" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 5 s 39 ! ! ! ! ! false ! &h0& 16 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 6 n -39 ! ! ! ! ! false ! &h0& 16 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 7 ! 0 ! ! ! ! ! false ! &h0& 1 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 8 n -8 ! ! ! ! ! false ! &h0& 1 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 9 n -76 "ASA Primary" ! ! ! ! false ! &h0& 10 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 10 ! 0 192.168.100.1 ! ! ! ! false ! &h0& 10 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 11 s 76 "ASA Secondary" ! ! ! ! false ! &h0& 11 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 12 ! 0 192.168.100.2 ! ! ! ! false ! &h0& 11 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 13 n -46 "Pub SW1" ! ! ! ! false ! &h0& 19 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 14 ! 0 192.168.100.20 ! ! ! ! false ! &h0& 19 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 15 s 44 "Edge Router1" ! ! ! ! false ! &h0& 20 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 16 ! 0 192.168.100.252 ! ! ! ! false ! &h0& 20 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 17 s 44 "Edge Router2" ! ! ! ! false ! &h0& 21 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 18 ! 0 192.168.100.253 ! ! ! ! false ! &h0& 21 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 19 s 46 "Pub SW2" ! ! ! ! false ! &h0& 22 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 20 ! 0 192.168.100.20 ! ! ! ! false ! &h0& 22 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 21 n -46 "DMZ SW1" ! ! ! ! false ! &h0& 24 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 22 ! 0 192.168.100.10 ! ! ! ! false ! &h0& 24 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 23 s 46 "DMZ SW2" ! ! ! ! false ! &h0& 23 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 24 ! 0 192.168.100.10 ! ! ! ! false ! &h0& 23 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 25 c 0 Internet ! ! ! ! false ! &h0& 25 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 26 912 957 stackwise calibri 12 false false false false &h0& 0 object &hFFFFFF& ! 90 255 0 0 Normal 0 0 0 false
+ label 27 n -46 "Edge SW1" ! ! ! ! false ! &h0& 27 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 28 ! 0 192.168.100.30 ! ! ! ! false ! &h0& 27 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 29 s 46 "Edge SW2" ! ! ! ! false ! &h0& 26 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 30 ! 0 192.168.100.30 ! ! ! ! false ! &h0& 26 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 31 n -54 Server1 ! ! ! ! false ! &h0& 38 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 32 ! 0 10.2.1.10 ! ! ! ! false ! &h0& 38 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 33 n -54 Server2 ! ! ! ! false ! &h0& 39 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 34 ! 0 10.2.1.11 ! ! ! ! false ! &h0& 39 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 35 n -54 Server3 ! ! ! ! false ! &h0& 40 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 36 ! 0 10.2.1.12 ! ! ! ! false ! &h0& 40 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 37 n -54 Server4 ! ! ! ! false ! &h0& 41 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 38 ! 0 10.2.1.13 ! ! ! ! false ! &h0& 41 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 39 1054 954.5 Failover calibri 20 false false false false &h0& 0 object &hFFFFFF& ! 90 255 0 0 Normal 0 0 0 false
+ label 40 1118 954.5 State calibri 20 false false false false &h0& 0 object &hFFFFFF& ! 90 255 0 0 Normal 0 0 0 false
+ label 41 1077.5 818 G3 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 42 1169.5 818 G4 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 43 1077.5 1117.5 G3 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 44 1169.5 1117.5 G4 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 45 1981.5 863.5 "ISP Link 1" "microsoft sans serif" 16 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 46 1981.5 1049.5 "ISP Link 2" "microsoft sans serif" 16 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 47 574 640 "Web Servers" "microsoft sans serif" 16 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 48 60 -27.5 "Bonded NICs" calibri 12 false false false false &h0& 42 object &hFFFFFF& ! 0 255 0 0 Small 0 0 0 false
+ label 49 c 0 "Rotate text <<crlf>>and objects. <<crlf>>Shift+ Drag <<crlf>>corner is one<<crlf>>way to rotate." arial 16 true false false false &h0& 49 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 50 1630 954.5 "BGP AS" ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 51 ! 0 ! ! ! ! ! false ! &h0& 43 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 52 ! 0 ! ! ! ! ! false ! &h0& 44 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 53 ! 0 ! ! ! ! ! false ! &h0& 45 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 54 1114.5 605.5 NAT calibri 20 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 Normal 0 0 0 false
+ label 55 s 78 ! ! ! ! ! false ! &h0& 49 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 56 c 0 "To draw links on<<crlf>>top of an object<<crlf>>instead of linking<<crlf>>to the object, use <<crlf>>right-click while<<crlf>>linking." arial 16 true false false false &h0& 54 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 57 1677.5 723.5 pub/29 calibri 12 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 Small 0 0 0 false
+ label 58 1520 723.5 pub/24 calibri 12 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 59 1398 957 stackwise calibri 12 false false false false &h0& 0 object &hFFFFFF& ! 90 255 0 0 Normal 0 0 0 false
+ label 60 1870 957 stackwise calibri 12 false false false false &h0& 0 object &hFFFFFF& ! 90 255 0 0 Small 0 0 0 false
+ label 61 1187.5 721.5 G0 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 62 1190 1210 G0 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 63 1056 722 G1 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 64 1054 1210 G1 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 65 s 78 ! ! ! ! ! false ! &h0& 54 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 66 906 802 G1/0/1 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 67 906 1113.5 G2/0/1 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 68 1296.5 802 G1/0/1 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 69 1296.5 1113.5 G2/0/1 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 70 1420.5 802 G1/0/2 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 71 1420.5 1113.5 G2/0/2 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 72 1798.5 802 G1/0/1 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 73 1798.5 1113.5 G2/0/1 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 "Port Label" 0 0 0 false
+ label 74 1942 896 G1/0/25 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 75 1942 1020 G2/0/25 "microsoft sans serif" 14 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 76 c 0 "Select a Template<<crlf>>when starting a<<crlf>>new diagram to<<crlf>>add a title block <<crlf>>and border." arial 16 true false false false &h0& 56 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 77 s 78 ! ! ! ! ! false ! &h0& 56 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 78 c 0 "Customizable<<crlf>>shapes.<<crlf>>Right Click and<<crlf>>Select Format<<crlf>>Shape." arial 16 true false false false &h0& 58 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 79 s 78 ! ! ! ! ! false ! &h0& 58 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 80 c 0 "Page 3" ! ! ! ! true ! &hFF0000& 60 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 81 s 55.5 ! ! ! ! ! false ! &h0& 60 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 82 c 0 "Hyperlink:<<crlf>>Right-click the <<crlf>>object and select<<crlf>><<quotes>>Goto Next Diagram<<quotes>>." arial 16 true false false false &h0& 61 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 83 s 78 ! ! ! ! ! false ! &h0& 61 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 84 c 0 "Hyperlinks link to <<crlf>>another part of the<<crlf>>diagram, another <<crlf>>page or another <<crlf>>document." arial 16 true false false false &h0& 63 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 85 s 78 ! ! ! ! ! false ! &h0& 63 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 86 c 0 "Dragging the page<<crlf>>edges or corner<<crlf>>is one way to change <<crlf>>the size of the page." arial 16 true false false false &h0& 62 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 87 s 78 ! ! ! ! ! false ! &h0& 62 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 88 c 0 "This border is <<crlf>>anchored to the <<crlf>>edge of the page. It<<crlf>>stays in place when <<crlf>>the page is resized." arial 16 true false false false &h0& 67 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 89 s 78 ! ! ! ! ! false ! &h0& 67 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 90 c 0 "There are 3 different<<crlf>>underlying methods<<crlf>>used to draw Objects:" arial 16 true false false false &h0& 69 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 91 s 78 ! ! ! ! ! false ! &h0& 69 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 92 c 0 "1. Fixed bitmaps. <<crlf>>These are made from <<crlf>>.wmf, .gif, .png, .bmp<<crlf>>graphic files stored in<<crlf>>the Object Libraries." arial 16 true false false false &h0& 70 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 93 s 78 ! ! ! ! ! false ! &h0& 70 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 94 c 0 "2. Shapes. <<crlf>>Shapes can be <<crlf>>customised and<<crlf>>are saved in the <<crlf>>document." arial 16 true false false false &h0& 71 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 95 s 78 ! ! ! ! ! false ! &h0& 71 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 96 c 0 "Replace the <<quotes>>logo.png<<quotes>><<crlf>>graphic in the Library<<crlf>>folder to use your <<crlf>>company logo with <<crlf>>the supplied<<crlf>>templates. " arial 16 true false false false &h0& 73 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 97 c 0 "3. Script Objects. <<crlf>>These are also stored<<crlf>>in the document. They <<crlf>>allow more complex<<crlf>>objects to be defined.<<crlf>>See page 3 for<<crlf>>examples." arial 16 true false false false &h0& 72 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 98 s 91.5 ! ! ! ! ! false ! &h0& 72 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 99 s 85 ! ! ! ! ! false ! &h0& 73 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 100 2692 104 "Page $page of $lastpage" calibri 22 false false false false &h0& 0 ! &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 101 c 0 "Double-click text <<crlf>>to edit and see <<crlf>>example of using <<crlf>>variables." arial 16 true false false false &h0& 75 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 102 s 78 ! ! ! ! ! false ! &h0& 75 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 103 c 0 "To locate the library <<crlf>>folder, first open <<crlf>>the Object Library<<crlf>>window and then<<crlf>>use File > Open Object<<crlf>>Libraries Folder. " arial 16 true false false false &h0& 77 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 104 s 78 ! ! ! ! ! false ! &h0& 77 ip ! ! 0 255 0 0 ! 0 0 0 false
+ no_label 105
+ label 106 0 18 test ! ! ! ! false ! &h0& 78 object ! ! 0 0 0 0 DeviceNameWhite 0 0 0 false
+ label 107 0 0 1.1.1.1 ! ! ! ! false ! &h0& 78 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 108 ! 0 icle ! ! ! ! false ! &h0& 79 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 109 ! 0 2.2.2.2 ! ! ! ! false ! &h0& 79 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 110 ! 0 gi0/0 ! ! ! ! false ! &h0& 78 ! ! ! 0 0 0 0 ! 0 0 0 false
+ label 111 ! 0 Te1/0/1 ! ! ! ! false ! &h0& 79 ! ! ! 0 0 0 0 ! 0 0 0 false
+ label 112 ! 0 3.3.3.1 ! ! ! ! false ! &h0& 78 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 113 ! 0 3.3.3.2 ! ! ! ! false ! &h0& 79 ip ! ! 0 0 0 0 ! 0 0 0 false
+Link_Table Index Obj1 Obj2 Style Hostname1_Lbl Hostname2_Lbl Addr1_Lbl Addr2_Lbl Comment1 Comment2 Xoffset1 Yoffset1 Xoffset2 Yoffset2 Node_List Align Layer
+ link_object 1 1 1 box 0 0 0 0 ! ! 0 0 0 0 " 2 3 4" False 3 -1
+ link_object 2 5 0 box 0 0 0 0 ! ! 0 0 0 0 " 6 7" False 3 -1
+ link_object 3 8 0 box 0 0 0 0 ! ! 0 0 0 0 " 9" False 3 -1
+ link_object 4 12 0 box 0 0 0 0 ! ! 0 0 0 0 " 13" False 3 -1
+ link_object 5 14 0 box 0 0 0 0 ! ! 0 0 0 0 15 False 3 -1
+ link_object 6 17 0 box 0 0 0 0 ! ! 0 0 0 0 18 False 3 -1
+ link_object 7 10 11 1000BaseT 0 0 0 0 ! ! -26 44 -26 -38 ! True 3 -1
+ link_object 8 10 11 1000BaseT 0 0 0 0 ! ! 24 38 24 -24 ! True 3 -1
+ link_object 9 24 23 Stackwise 0 0 0 0 ! ! -26 12 -26 -4 ! True 3 -1
+ link_object 10 24 23 Stackwise 0 0 0 0 ! ! 28 18 28 -22 ! True 3 -1
+ link_object 11 19 22 Stackwise 0 0 0 0 ! ! -28 16 -28.5 0 ! True 3 -1
+ link_object 12 19 22 Stackwise 0 0 0 0 ! ! 30 18 29.5 -22 ! False 3 -1
+ link_object 13 27 26 Stackwise 0 0 0 0 ! ! -28 14 -28 -6 ! True 3 -1
+ link_object 14 27 26 Stackwise 0 0 0 0 ! ! 28 2 28 -8 ! True 3 -1
+ link_object 15 27 25 1000BaseT 0 0 0 0 ! ! 0 0 0 0 28 False 3 -1
+ link_object 16 26 25 1000BaseT 0 0 0 0 ! ! 0 0 0 0 29 False 3 -1
+ link_object 17 20 27 1000BaseT 0 0 0 0 ! ! 0 -2 0 0 30 True 3 -1
+ link_object 18 26 21 1000BaseT 0 0 0 0 ! ! 0 0 0 0 31 True 3 -1
+ link_object 19 19 20 1000BaseT 0 0 0 0 ! ! 30 -4 -40 -2 32 True 3 -1
+ link_object 20 22 21 1000BaseT 0 0 0 0 ! ! 30 10 -26 0 33 True 3 -1
+ link_object 21 10 19 1000BaseT 0 0 0 0 ! ! 0 -2 -28 -4 34 True 3 -1
+ link_object 22 11 22 1000BaseT 0 0 0 0 ! ! 0 0 -28.5 16 35 True 3 -1
+ link_object 23 23 11 1000BaseT 0 0 0 0 ! ! 2 0 0 0 36 True 3 -1
+ link_object 24 24 10 1000BaseT 0 0 0 0 ! ! 0 0 0 -2 37 True 3 -1
+ link_object 25 41 23 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 26 40 23 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 27 39 24 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 28 38 24 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 29 38 23 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 30 39 23 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 31 40 24 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 32 41 24 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 33 20 21 1000BaseT 0 0 0 0 ! ! 0 0 0 0 ! False 3 -1
+ link_object 34 46 0 "double pointer" 0 0 0 0 ! ! 12 0 0 0 47 False 3 -1
+ link_object 35 49 51 pointer 0 0 0 0 ! ! 0 0 0 0 50 True 2 -1
+ no_link_object 36
+ link_object 37 56 57 pointer 0 0 0 0 ! ! 0 0 0 0 ! False 2 -1
+ link_object 38 58 59 pointer 0 0 0 0 ! ! 0 0 0 0 ! False 2 -1
+ link_object 39 62 64 pointer 0 0 0 0 ! ! 0 0 0 0 ! False 2 -1
+ link_object 40 61 60 pointer 0 0 0 0 ! ! 0 0 56 42 ! False 5 -1
+ link_object 41 62 65 pointer 0 0 0 0 ! ! 0 0 0 0 ! False 2 -1
+ link_object 42 62 66 pointer 0 0 0 0 ! ! 0 0 0 0 ! False 2 -1
+ link_object 43 67 68 pointer 0 0 0 0 ! ! 0 0 0 0 ! False 2 -1
+ link_object 44 75 76 pointer 0 0 0 0 ! ! 0 0 0 0 ! False 2 -1
+ no_link_object 45
+ link_object 46 73 74 pointer 0 0 0 0 ! ! -10 0 0 0 ! True 2 -1
+ link_object 47 70 38 pointer 0 0 0 0 ! ! 0 0 -28 0 ! False 2 -1
+ link_object 48 71 53 pointer 0 0 0 0 ! ! 0 -2 -272 -36 ! True 2 -1
+ link_object 49 78 79 10baseT 110 111 112 113 ! ! 0 0 0 0 ! False 3 -1
+Link_Styles_table Type Format Colour Style Width Misc Angle Style2 Length Endcap Join Startcap Dashcap Transpcy Align Secondary_Style start_cap_type variant width height x y end_cap_type variant width height x y
+ define_link 100baseT 0 &h808080& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 1000BaseT 0 &h808080& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "MM Fibre" 0 &hFF8080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "SM Fibre" 0 &h80FF00& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 10baseT 0 &h808080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "Leased Line" 1 &hFF00& 1 14 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ISDN 0 &hFF& 3 2 9 1 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ADSL 1 &hFFFF00& 1 14 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link backbone 0 &hC0C0C0& 1 6 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "black pointer" 0 &h0& 1 1 128 .3 1 13 9 0 0 0 255 False ! 0 0 0 0 0 0 0 1 8 12 0 0 0
+ define_link "red pointer" 0 &hFF& 1 1 128 0 1 15 9 0 0 0 255 False ! 0 0 0 0 0 0 0 1 8 14 0 0 0
+ define_link unknown 0 &h7F7F7F& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "GRE Tunnel" 0 &hFF& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link L2TP 0 &h80FF& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link box 0 &h0& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "64K LL" 1 &hFFFF& 1 15 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "100 BaseT Dashed" 0 &h6F6F6F& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link Stackwise 0 &hB700B7& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "double pointer" 0 &h0& 1 1 192 .3 1 13 9 0 9 0 255 False ! 0 1 8 12 0 0 0 1 8 12 0 0 0
+ define_link pointer 0 &h0& 1 1 128 0 0 10 9 0 0 0 255 False ! 0 0 0 0 0 0 0 0 6 10 0 0 0
+Shapes_Table Name Type Variant Colour1 Transpcy1 Colour2 Transpcy2 Colour3 Transpcy3 Dim1 Dim2 FillX1 FillY1 FillX2 FillY2 Width Height Borderstyle Dashcap Antialias
+ define_shape Test232 6 0 &hBAC5FE& 255 &h0& 255 &hFF8080& 255 1 0 50 0 50 100 100 100 0 0 0
+ define_shape Etherchannel1 6 0 &hFFFFFF& 0 &h0& 255 &h808080& 255 1 0 50 0 50 100 10 40 0 0 0
+ define_shape Textbox 2 0 &h9FFFFF& 255 &h0& 255 &h0& 255 1 12 50 0 50 100 89 61 0 0 0
+ define_shape coolbox5 1 0 &hFFFFFF& 255 &hB8B8B8& 255 &h0& 255 1 50 75 0 75 100 150 100 0 0 0
+ define_shape "Zone Box1" 2 0 &hEAEAEA& 255 &hE4E4E4& 255 &h0& 255 0 20 75 0 75 150 150 150 0 0 0
+ define_shape circle2 6 0 &hFFFFFF& 0 &hB8B8& 255 &h808080& 255 1 0 50 0 75 100 40 40 0 0 0
+ define_shape "Red Zone" 2 0 &hF2F2FF& 255 &hE4E4E4& 255 &h0& 255 0 20 75 0 75 150 150 150 0 0 0
+ define_shape "Green Zone" 2 0 &hE8FFEA& 255 &hE4E4E4& 255 &h0& 255 0 20 75 0 75 150 150 150 0 0 0
+ define_shape whitecircle 6 0 &hFFFFFF& 255 &h0& 255 &h0& 255 0 0 50 0 50 100 100 100 0 0 0
+ define_shape Link 6 0 &hFFFFFF& 255 &h0& 255 &hFF8080& 255 1 0 50 0 50 100 80 80 0 0 0
+
+Page 2
+
+Version 8.4
+Diagram_Title "Internet Edge - Logical"
+Notes1 
+Notes2 
+Page_Settings_Table Width Height Orientation Pos_X Pos_Y Draw_Scale Fine_Scale Created_By Create_Date Updated_By Update_Date Adjust_X Adjust_Y Page_Locked
+ page_settings 3000 2000 landscape 1 -207 0.5 2 Jason 09/11/2017 Jason 30/07/2018 0 0 Unlocked
+Colours_Table Bkgnd Link_Text Grid Float_Foregnd Float_Backgnd
+ colours &hFFFFFF& &hFF0000& &hFEEDED& &h0& &hFCD68F&
+Text_Styles_Table Font Size Bold Italic UL ST FColour BColour F_Transpcy B_Transpcy
+ text_style Normal Calibri 10 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Heading1 "Calibri Light" 16 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Heading2 "Calibri Light" 13 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Title "Calibri Light" 28 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Subtitle Calibri 11 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Default Arial 10 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Small Arial 8 False False False False &h0& &hFFFFFF& 255 0 
+Obj_Table Index Type X Y Caption_Lbl Float_text Hyperlink Parent Addr_Lbl X_scale Y_scale Layer Type_bits Rotate Rflip Backgnd Width Height Locked Toolset Var1 Var2
+ object 1 linknode 20 -23 7 ! ! -5 8 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 2 linknode 20 25 0 ! ! -1 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 3 linknode -27 25 0 ! ! -3 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 4 linknode -27 -23 0 ! ! -7 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 5 linknode 20 -262 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 6 linknode 1634 -262 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 7 linknode 1634 -23 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 8 linknode 20 -226 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 9 linknode 1634 -226 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 10 YellowBox-R88D55F59D454602E 1382 883 9 ! ! 0 10 1.5 10 4 16 0 0 false 225 1000 false 6 ! !
+ object 11 asa 1382 458 11 ! ! 0 12 1 1 0 0 0 0 false 100 125 false 0 ! !
+ object 12 linknode 20 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 13 linknode 1634 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 14 linknode 819 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 15 linknode 819 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 16 logo 130 -170 5 ! ! -5 6 2 2 1 0 0 0 false 100 78 true 0 ! !
+ object 17 linknode 1632 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 18 linknode 20 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 19 YellowBox-R88D55F59DAA5C45F 1348 852 13 ! ! 0 14 1.5 10 5 16 0 0 false 225 1000 false 6 ! !
+ object 20 GreyBox-R88D55F5A06E48BC9 364 432 15 ! ! 0 16 1 6 3 16 0 0 true 150 600 false 0 ! !
+ object 21 ibmmainframe 0 -220 17 ! ! 20 18 1 1 1 0 0 0 false 91 113 false 0 ! !
+ object 22 PurpleBox-R88D55F59E66E13C6 2034 500 19 ! ! 0 20 1.5 6 5 16 0 0 false 225 600 false 0 ! !
+ object 23 routerc1 0 -254 21 ! ! 22 22 1 1 4 0 0 0 false 100 61 false 0 ! !
+ object 24 VRF 0 204 23 ! ! 22 24 1.4 1 4 16 0 0 false 196 150 false 0 ! !
+ object 25 OrangeBox-R88D55F59F56ABE6B 466 1280 65 ! ! 0 26 1 6 4 16 0 0 false 150 600 false 0 ! !
+ object 26 vsm 0 -243 27 ! ! 25 28 1 1 1 0 0 0 false 103 51 false 0 ! !
+ object 27 OrangeBox-R88D55F59FE3F7D93 -18 -17 29 ! ! 25 30 1 6 5 16 0 0 false 150 600 false 0 ! !
+ object 28 hbb2 802 654 31 ! ! 0 32 11.74 1.5 2 153 0 0 false 1174 30 false 0 ! !
+ object 29 PurpleBox-R88D55F59E66E13C6 2034 1332 33 ! ! 0 34 1.5 6 5 16 0 0 false 225 600 false 0 ! !
+ object 30 routerc1 0 -254 35 ! ! 29 36 1 1 4 0 0 0 false 100 61 false 0 ! !
+ object 31 VRF 0 -136 37 ! ! 29 38 1.4 1 4 16 0 0 false 196 150 false 0 ! !
+ object 32 GreyBox-R88D55F5A06E48BC9 544 432 39 ! ! 0 40 1 6 3 16 0 0 true 150 600 false 0 ! !
+ object 33 ibmmainframe 0 -220 41 ! ! 32 42 1 1 1 0 0 0 false 91 113 false 0 ! !
+ object 34 GreyBox-R88D55F5A06E48BC9 723 432 43 ! ! 0 44 1 6 3 16 0 0 true 150 600 false 0 ! !
+ object 35 ibmmainframe 0 -220 45 ! ! 34 46 1 1 1 0 0 0 false 91 113 false 0 ! !
+ object 36 GreyBox-R88D55F5A06E48BC9 901 432 47 ! ! 0 48 1 6 3 16 0 0 true 150 600 false 0 ! !
+ object 37 ibmmainframe 0 -220 49 ! ! 36 50 1 1 1 0 0 0 false 91 113 false 0 ! !
+ object 38 hbb2 802 552 51 ! ! 0 52 11.74 1.5 2 153 0 0 false 1174 30 false 0 ! !
+ object 39 OrangeBox-R88D55F59F56ABE6B 658 1280 71 ! ! 0 66 1 6 4 16 0 0 false 150 600 false 0 ! !
+ object 40 hbb2 1763 914 55 ! ! 0 56 7.52 1.5 3 153 0 0 false 752 30 false 0 ! !
+ object 41 linknode 1710 536 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 42 VRF 2034 1364 78 ! ! 0 79 1.4 1 4 16 0 0 false 196 150 false 0 ! !
+ object 43 hbb2 1279 1692 59 ! ! 0 60 19.8 1.5 2 153 0 0 false 1980 30 false 0 ! !
+ object 44 cloud.wmf 2454 978 61 ! ! 0 62 2 2 2 0 0 0 false 219 128 false 0 ! !
+ object 45 linknode 2454 1242 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 46 Cloud3 1710 1252 53 ! ! 0 54 2 2 2 0 0 0 false 257 160 false 0 ! !
+ object 47 linknode 2454 742 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 48 linknode 1710 596 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 49 vsm 0 -243 67 ! ! 39 68 1 1 1 0 0 0 false 103 51 false 0 ! !
+ object 50 OrangeBox-R88D55F59FE3F7D93 -18 -17 69 ! ! 39 70 1 6 5 16 0 0 false 150 600 false 0 ! !
+ object 51 OrangeBox-R88D55F59F56ABE6B 852 1280 77 ! ! 0 72 1 6 4 16 0 0 false 150 600 false 0 ! !
+ object 52 vsm 0 -243 73 ! ! 51 74 1 1 1 0 0 0 false 103 51 false 0 ! !
+ object 53 OrangeBox-R88D55F59FE3F7D93 -18 -17 75 ! ! 51 76 1 6 5 16 0 0 false 150 600 false 0 ! !
+ object 54 linknode 1710 1366 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 55 textbox 1208 158 98 ! ! 0 99 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 56 VRF 2034 534 80 ! ! 0 81 1.4 1 4 16 0 0 false 196 150 false 0 ! !
+ object 57 VRF 2034 1602 82 ! ! 0 83 1.4 0.25 4 16 0 0 false 196 38 false 0 ! !
+ object 58 linknode 2172 1602 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 59 VRF 2034 308 84 ! ! 0 85 1.4 0.25 4 16 0 0 false 196 38 false 0 ! !
+ object 60 linknode 2192 310 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 61 linknode 2192 362 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 62 linknode 1208 290 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 63 linknode 974 290 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 64 textbox 1460 158 100 ! ! 0 101 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+Label_Table Index X Y Text Font_Name Size Bold Italic UL ST Colour Parent_Object Type Backgnd Locked Rotate Ftranspcy Btranspcy Layer Style Parent_Link Link_pos Link_Seg Xoffset Yoffset
+ label 1 851 -108 "Last Updated on $changedate by $changename" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 2 38 -59 "Filename: $filename" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 3 262 -208 "Internet Edge - Logical Diagram" "calibri light" 56 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Title 0 0 0 false
+ label 4 38 -108 "Created on $createdate by $createname" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 5 s 39 ! ! ! ! ! false ! &h0& 16 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 6 n -39 ! ! ! ! ! false ! &h0& 16 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 7 ! 0 ! ! ! ! ! false ! &h0& 1 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 8 n -8 ! ! ! ! ! false ! &h0& 1 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 9 n -516.5 ASA1 ! ! ! ! false ! &h0& 10 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 10 28 516.5 192.168.100.1/24 ! ! ! ! false ! &h0& 10 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 11 ! 0 name "comic sans ms" 15 false false false false &h0& 11 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 12 ! 0 ! "comic sans ms" 15 false false false false &h0& 11 ip &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 13 n -516.5 ASA2 ! ! ! ! false ! &h0& 19 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 14 -190 547.5 192.168.100.2/24 ! ! ! ! false ! &h0& 19 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 15 n -316.5 Server4 arial 20 false false false false &h0& 20 object &hFFFFFF& ! 0 255 0 0 Default 0 0 0 false
+ label 16 s 316.5 10.2.1.13/24 ! ! ! ! false ! &h0& 20 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 17 s 56.5 ! ! ! ! ! false ! &h0& 21 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 18 n -56.5 ! ! ! ! ! false ! &h0& 21 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 19 n -316.5 "Edge Router1" arial 20 false false false false &h0& 22 flow &hFFFFFF& ! 0 255 0 0 Default 0 0 0 false
+ label 20 s 316.5 192.168.100.252/24 ! ! ! ! false ! &h0& 22 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 21 s 30.5 ! ! ! ! ! false ! &h0& 23 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 22 n -30.5 ! ! ! ! ! false ! &h0& 23 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 23 0 -44 "VRF ISP" ! ! ! ! false ! &h0& 24 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 24 s 75 ! ! ! ! ! false ! &h0& 24 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 25 2158 364 "Mgmt VLAN" arial 16 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 26 s 313 192.168.100.10/24 arial 16 false false false false &h0& 25 ip &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 27 s 25.5 ! ! ! ! ! false ! &h0& 26 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 28 ! 0 ! ! ! ! ! false ! &h0& 26 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 29 n -300 ! ! ! ! ! false ! &h0& 27 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 30 ! 0 ! ! ! ! ! false ! &h0& 27 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 31 c 0 "VLAN 10 Frontend" ! ! ! ! false ! &h0& 28 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 32 s 15 ! ! ! ! ! false ! &h0& 28 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 33 n -316.5 "Edge Router2" arial 20 false false false false &h0& 29 flow &hFFFFFF& ! 0 255 0 0 Default 0 0 0 false
+ label 34 s 316.5 192.168.100.253/24 ! ! ! ! false ! &h0& 29 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 35 s 30.5 ! ! ! ! ! false ! &h0& 30 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 36 n -30.5 ! ! ! ! ! false ! &h0& 30 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 37 0 -42 "VRF ISP" ! ! ! ! false ! &h0& 31 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 38 s 75 ! ! ! ! ! false ! &h0& 31 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 39 n -316.5 Server3 arial 20 false false false false &h0& 32 object &hFFFFFF& ! 0 255 0 0 Default 0 0 0 false
+ label 40 s 316.5 10.2.1.12/24 ! ! ! ! false ! &h0& 32 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 41 s 56.5 ! ! ! ! ! false ! &h0& 33 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 42 n -56.5 ! ! ! ! ! false ! &h0& 33 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 43 n -316.5 Server2 arial 20 false false false false &h0& 34 object &hFFFFFF& ! 0 255 0 0 Default 0 0 0 false
+ label 44 s 316.5 10.2.1.11/24 ! ! ! ! false ! &h0& 34 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 45 s 56.5 ! ! ! ! ! false ! &h0& 35 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 46 n -56.5 ! ! ! ! ! false ! &h0& 35 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 47 n -316.5 Server1 arial 20 false false false false &h0& 36 object &hFFFFFF& ! 0 255 0 0 Default 0 0 0 false
+ label 48 s 316.5 10.2.1.10/24 ! ! ! ! false ! &h0& 36 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 49 s 56.5 ! ! ! ! ! false ! &h0& 37 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 50 n -56.5 ! ! ! ! ! false ! &h0& 37 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 51 c 0 "VLAN 11 Backend" ! ! ! ! false ! &h0& 38 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 52 s 15 ! ! ! ! ! false ! &h0& 38 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 53 c 0 MPLS<<crlf>>Network ! ! ! ! false ! &h0& 46 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 54 n -80 ! ! ! ! ! false ! &h0& 46 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 55 c 0 "VLAN 2 Outside" ! ! ! ! false ! &h0& 40 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 56 s 15 ! ! ! ! ! false ! &h0& 40 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 57 2154 706 "ISP Link 1" ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 58 2154 1208 "ISP Link 2" ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 59 c 0 "VLAN 99 Management" ! ! ! ! false ! &h0& 43 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 60 s 15 ! ! ! ! ! false ! &h0& 43 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 61 c 0 Internet ! ! ! ! false ! &h0& 44 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 62 n -64 ! ! ! ! ! false ! &h0& 44 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 63 1668 598 MPLS<<crlf>>Network arial 20 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 64 1496 932 "outside<<crlf>>A.B.C.1 /24" arial 20 false false false false &h0& 0 ip &hFFFFFF& ! 0 255 0 0 Default 0 0 0 false
+ label 65 0 -334.5 "DMZ SW" ! ! ! ! false ! &h0& 25 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 66 s 313 192.168.100.20/24 arial 16 false false false false &h0& 39 ip &hFFFFFF& ! 0 255 0 0 Small 0 0 0 false
+ label 67 s 25.5 ! ! ! ! ! false ! &h0& 49 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 68 ! 0 ! ! ! ! ! false ! &h0& 49 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 69 n -300 ! ! ! ! ! false ! &h0& 50 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 70 ! 0 ! ! ! ! ! false ! &h0& 50 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 71 0 -334.5 "Pub SW" ! ! ! ! false ! &h0& 39 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 72 s 313 192.168.100.30/24 arial 16 false false false false &h0& 51 ip &hFFFFFF& ! 0 255 0 0 Small 0 0 0 false
+ label 73 s 25.5 ! ! ! ! ! false ! &h0& 52 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 74 ! 0 ! ! ! ! ! false ! &h0& 52 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 75 n -300 ! ! ! ! ! false ! &h0& 53 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 76 ! 0 ! ! ! ! ! false ! &h0& 53 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 77 0 -334.5 "Edge SW" ! ! ! ! false ! &h0& 51 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 78 0 -42 "VRF Global" ! ! ! ! false ! &h0& 42 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 79 s 75 ! ! ! ! ! false ! &h0& 42 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 80 0 -42 "VRF Global" ! ! ! ! false ! &h0& 56 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 81 s 75 ! ! ! ! ! false ! &h0& 56 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 82 c 0 "VRF Mgmt" ! ! ! ! false ! &h0& 57 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 83 s 19 ! ! ! ! ! false ! &h0& 57 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 84 c 0 "VRF Mgmt" ! ! ! ! false ! &h0& 59 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 85 s 19 ! ! ! ! ! false ! &h0& 59 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 86 1774 542 10.1.1.1/24 ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 87 1766 1372 "10.1.1.2 /24" ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 88 2152 746 X.Y.Z.249/29 ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 89 2150 1246 X.Y.Z.249/29 ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 90 1096 672 inside1<<crlf>>10.2.1.1/24 ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 91 1096 568 inside2<<crlf>>10.3.1.1/24 ! ! ! ! false ! &h0& 0 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 92 1772 932 "HSRP group2<<crlf>>A.B.C.253" arial 20 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 93 1966 836 "A.B.C.252 /24" arial 20 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 94 1966 964 "A.B.C.251 /24" arial 20 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 95 2456 876 "X.Y.Z.254 /29" arial 20 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 96 2456 1044 "X.Y.Z.254 /29" arial 20 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 97 1772 836 "HSRP group1<<crlf>>A.B.C.254" arial 20 false false false false &h0& 0 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 98 c 0 "Grouped Objects.<<crlf>>Copying or moving<<crlf>>a parent object also <<crlf>>copies or moves<<crlf>>all child objects." arial 16 true false false false &h0& 55 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 99 s 78 ! ! ! ! ! false ! &h0& 55 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 100 c 0 "Grouped objects can<<crlf>>also be <<quotes>>locked<<quotes>>.<<crlf>>Locked objects are <<crlf>>proportionally <<crlf>>resized with the <<crlf>>parent object." arial 16 true false false false &h0& 64 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 101 s 78 ! ! ! ! ! false ! &h0& 64 ip ! ! 0 255 0 0 ! 0 0 0 false
+Link_Table Index Obj1 Obj2 Style Hostname1_Lbl Hostname2_Lbl Addr1_Lbl Addr2_Lbl Comment1 Comment2 Xoffset1 Yoffset1 Xoffset2 Yoffset2 Node_List Align Layer
+ link_object 1 1 1 box 0 0 0 0 ! ! 0 0 0 0 " 2 3 4" False 3 -1
+ link_object 2 5 0 box 0 0 0 0 ! ! 0 0 0 0 " 6 7" False 3 -1
+ link_object 3 8 0 box 0 0 0 0 ! ! 0 0 0 0 " 9" False 3 -1
+ link_object 4 12 0 box 0 0 0 0 ! ! 0 0 0 0 " 13" False 3 -1
+ link_object 5 14 0 box 0 0 0 0 ! ! 0 0 0 0 15 False 3 -1
+ link_object 6 17 0 box 0 0 0 0 ! ! 0 0 0 0 18 False 3 -1
+ link_object 7 56 48 Arrow 0 0 0 0 ! ! -96 2 0 0 41 False 5 -1
+ link_object 8 39 43 1000BaseT 0 0 0 0 ! ! -64 294 -681 -6 ! False 5 -1
+ link_object 9 44 31 1000BaseT 0 0 0 0 ! ! 0 0 98 46 45 True 3 -1
+ link_object 10 44 24 1000BaseT 0 0 0 0 ! ! 0 0 96 38 47 False 3 -1
+ link_object 11 55 63 pointer 0 0 0 0 ! ! 0 0 0 0 62 False 2 -1
+ link_object 12 55 37 pointer 0 0 0 0 ! ! 0 0 0 0 ! False 2 -1
+ link_object 13 10 43 1000BaseT 0 0 0 0 ! ! -84 495 197 -14 ! False 5 -1
+ link_object 14 19 43 1000BaseT 0 0 0 0 ! ! -90 498 -21 -8 ! False 5 -1
+ link_object 15 25 43 1000BaseT 0 0 0 0 ! ! -58 294 -905 -10 ! False 5 -1
+ link_object 16 27 43 1000BaseT 0 0 0 0 ! ! -62 299 -941 -10 ! False 5 -1
+ link_object 17 31 40 1000BaseT 0 0 0 0 ! ! -76 -74 195 16 ! True 4 -1
+ link_object 18 24 40 1000BaseT 0 0 0 0 ! ! -76 74 195 -12 ! True 4 -1
+ no_link_object 19
+ link_object 20 50 43 1000BaseT 0 0 0 0 ! ! -66 297 -703 -8 ! False 5 -1
+ link_object 21 51 43 1000BaseT 0 0 0 0 ! ! -64 296 -485 -12 ! False 5 -1
+ link_object 22 53 43 1000BaseT 0 0 0 0 ! ! -66 297 -509 -12 ! False 5 -1
+ no_link_object 23
+ link_object 24 42 46 1000BaseT 0 0 0 0 ! ! -92 2 0 0 54 False 5 -1
+ link_object 25 57 43 1000BaseT 0 0 0 0 ! ! 94 0 893 -8 58 False 5 -1
+ link_object 26 59 61 Arrow 0 0 0 0 ! ! 98 2 0 0 60 True 5 -1
+Link_Styles_table Type Format Colour Style Width Misc Angle Style2 Length Endcap Join Startcap Dashcap Transpcy Align Secondary_Style start_cap_type variant width height x y end_cap_type variant width height x y
+ define_link 100baseT 0 &h808080& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 1000BaseT 0 &h808080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "MM Fibre" 0 &hFF8080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "SM Fibre" 0 &h80FF00& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 10baseT 0 &h808080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "Leased Line" 1 &hFF00& 1 14 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ISDN 0 &hFF& 3 2 9 1 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ADSL 1 &hFFFF00& 1 14 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link backbone 0 &hC0C0C0& 1 6 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "black pointer" 0 &h0& 1 1 128 .3 1 13 9 0 0 0 255 False ! 0 0 0 0 0 0 0 1 8 12 0 0 0
+ define_link "red pointer" 0 &hFF& 1 1 128 0 1 15 9 0 0 0 255 False ! 0 0 0 0 0 0 0 1 8 14 0 0 0
+ define_link unknown 0 &h7F7F7F& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "GRE Tunnel" 0 &hFF& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link L2TP 0 &h80FF& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link box 0 &h7C7C7C& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "64K LL" 1 &hFFFF& 1 15 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "100 BaseT Dashed" 0 &h6F6F6F& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "Backbone Connection" 0 &h808080& 1 2 9 0 0 0 9 0 0 0 255 False ! 0 0 0 0 0 0 3 1 8 8 0 0 0
+ define_link Arrow 0 &h808080& 1 2 9 0 0 0 9 0 0 0 255 False ! 0 0 0 0 0 0 0 1 12 12 0 0 0
+ define_link pointer 0 &h0& 1 1 128 0 0 10 9 0 0 0 255 False ! 0 0 0 0 0 0 0 0 6 10 0 0 0
+Shapes_Table Name Type Variant Colour1 Transpcy1 Colour2 Transpcy2 Colour3 Transpcy3 Dim1 Dim2 FillX1 FillY1 FillX2 FillY2 Width Height Borderstyle Dashcap Antialias
+ define_shape coolbox8-R88CCB5A381266C67 2 0 &hB0FFFF& 255 &hEBEBEB& 255 &h0& 180 1 30 75 1 75 100 150 100 0 0 1
+ define_shape coolbox8x-dark 2 0 &hE1E1& 255 &hEBEBEB& 255 &h0& 180 1 30 75 1 75 100 150 100 1 0 1
+ define_shape coolbox6 1 0 &hEBEBEB& 255 &hEBEBEB& 255 &h0& 255 1 30 75 1 75 100 150 100 0 0 1
+ define_shape coolbox5-R88CCB5A38E93911C 2 0 &hFF8080& 115 &hB8B8B8& 255 &h0& 199 1 30 75 0 75 100 150 100 0 0 1
+ define_shape coolbox4-R88CCA5E20ABD9121 2 0 &hEDD9F2& 255 &hB0C800& 255 &h0& 255 1 20 50 0 75 100 140 150 0 0 1
+ define_shape Switchbox-Virtual 2 0 &hAAD5FF& 255 &hEBEBEB& 255 &h0& 255 1 30 75 1 75 100 150 100 1 0 1
+ define_shape Switchbox-R88D08D6118B69DBE-dark 2 0 &h46A3FF& 255 &hEBEBEB& 255 &h0& 255 1 30 75 1 75 100 150 100 1 0 1
+ define_shape HBB2 11 0 &hFFFFFF& 255 &h808080& 255 &h0& 255 1 100 50 0 50 20 100 20 0 0 2
+ define_shape YellowBox-R88D55F59D454602E 2 0 &hB0FFFF& 255 &hEBEBEB& 255 &h0& 180 1 30 75 1 75 100 150 100 0 0 1
+ define_shape YellowBox-R88D55F59DAA5C45F 2 0 &hE1E1& 255 &hEBEBEB& 255 &h0& 180 1 30 75 1 75 100 150 100 1 0 1
+ define_shape PurpleBox-R88D55F59E66E13C6 2 0 &hFF8080& 115 &hB8B8B8& 255 &h0& 199 1 30 75 0 75 100 150 100 0 0 1
+ define_shape VRF 2 0 &hEDD9F2& 255 &hB0C800& 255 &h0& 255 1 20 50 0 75 100 140 150 0 0 1
+ define_shape OrangeBox-R88D55F59F56ABE6B 2 0 &hAAD5FF& 255 &hEBEBEB& 255 &h0& 255 1 30 75 1 75 100 150 100 1 0 1
+ define_shape OrangeBox-R88D55F59FE3F7D93 2 0 &h46A3FF& 255 &hEBEBEB& 255 &h0& 255 1 30 75 1 75 100 150 100 1 0 1
+ define_shape GreyBox-R88D55F5A06E48BC9 1 0 &hEBEBEB& 255 &hEBEBEB& 255 &h0& 255 1 30 75 1 75 100 150 100 0 0 1
+ define_shape Textbox 2 0 &h97FFFF& 255 &h0& 255 &h0& 255 1 12 50 0 50 100 89 61 0 0 0
+
+Page 3
+
+Version 8.4
+Diagram_Title "Internet Edge - Rack"
+Notes1 
+Notes2 
+Page_Settings_Table Width Height Orientation Pos_X Pos_Y Draw_Scale Fine_Scale Created_By Create_Date Updated_By Update_Date Adjust_X Adjust_Y Page_Locked
+ page_settings 6000 4000 landscape -6 -1205 0.5 2 Jason 09/11/2017 Jason 30/07/2018 0 0 Unlocked
+Colours_Table Bkgnd Link_Text Grid Float_Foregnd Float_Backgnd
+ colours &hFFFFFF& &hFF0000& &hFEEDED& &h0& &hFCD68F&
+Text_Styles_Table Font Size Bold Italic UL ST FColour BColour F_Transpcy B_Transpcy
+ text_style Normal Calibri 10 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Heading1 "Calibri Light" 16 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Heading2 "Calibri Light" 13 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Title "Calibri Light" 28 False False False False &h0& &hFFFFFF& 255 0 
+ text_style Subtitle Calibri 11 False False False False &h0& &hFFFFFF& 255 0 
+Obj_Table Index Type X Y Caption_Lbl Float_text Hyperlink Parent Addr_Lbl X_scale Y_scale Layer Type_bits Rotate Rflip Backgnd Width Height Locked Toolset Var1 Var2
+ object 1 linknode 20 -23 7 ! ! -5 8 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 2 linknode 20 25 0 ! ! -1 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 3 linknode -27 25 0 ! ! -3 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 4 linknode -27 -23 0 ! ! -7 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 5 linknode 20 -262 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 6 linknode 1634 -262 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 7 linknode 1634 -23 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 8 linknode 20 -226 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 9 linknode 1634 -226 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 10 rack24u 1670 2045 0 ! ! 0 0 2 2 4 80 0 0 false 1120 2312 false 0 ! !
+ object 11 rack24u 2798 2045 0 ! ! 0 0 2 2 4 80 0 0 false 1120 2312 false 0 ! !
+ object 12 linknode 20 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 13 linknode 1634 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 14 linknode 819 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 15 linknode 819 -74 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 16 logo 130 -170 5 ! ! -5 6 2 2 1 0 0 0 false 100 78 true 0 ! !
+ object 17 linknode 1632 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 18 linknode 20 -114 0 ! ! -5 0 2 2 0 2 0 0 false 16 16 true 0 ! !
+ object 19 "Cisco WS-C3850-24T Front" 0 -1026 9 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 20 "Cisco WS-C3850-24T Front" 0 -759 10 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 21 "Cisco WS-C3850-24T Front" 0 -759 11 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 22 "Cisco WS-C3850-24T Front" 0 -1026 12 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 23 3850-NM4 361 0 0 ! ! 19 0 2 2 2 80 0 0 false 154 80 false 0 ! !
+ object 24 textbox 1962 728 14 ! ! 0 16 2.55 2.55 1 16 0 0 false 227 156 false 0 ! !
+ object 25 textbox 2186 700 17 ! ! 0 22 2.811 2.811 1 16 0 0 false 250 171 false 0 ! !
+ object 26 3850-NM4 361 0 0 ! ! 22 0 2 2 2 80 0 0 false 154 80 false 0 ! !
+ object 27 "Cisco WS-C3850-24T Front" 0 -492 13 ! ! 11 36 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 28 textbox 2448 634 23 ! ! 0 24 3.8 2.55 1 16 0 0 false 338 156 false 0 ! !
+ object 29 linknode 1988 1118 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 30 "Cisco ASA5516-X Rear" 0 -581 15 ! ! 11 32 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 31 linknode 934 1118 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 32 linknode 934 738 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 33 "Cisco ASR1001-X" 0 -848 18 ! ! 11 34 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 34 "Cisco ASR1001-X" 0 -848 19 ! ! 10 33 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 35 "Cisco ASA5516-X Rear" 0 -581 20 ! ! 10 31 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 36 "1U 4 ring cable management panel" 0 -937 0 ! ! 11 0 2 2 3 80 0 24 false 968 88 false 0 ! !
+ object 37 "1U 4 ring cable management panel" 0 -937 0 ! ! 10 0 2 2 3 80 0 24 false 968 88 false 0 ! !
+ object 38 "1U 4 ring cable management panel" 0 -670 0 ! ! 10 0 2 2 3 80 0 24 false 968 88 false 0 ! !
+ object 39 "1U 4 ring cable management panel" 0 -670 0 ! ! 11 0 2 2 3 80 0 24 false 968 88 false 0 ! !
+ object 40 "Cisco WS-C3850-24T Front" 0 -492 21 ! ! 10 35 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 41 linknode 3114 1112 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 42 "1U 4 ring cable management panel" 0 -403 0 ! ! 10 0 2 2 3 80 0 24 false 968 88 false 0 ! !
+ object 43 "1U 4 ring cable management panel" 0 -403 0 ! ! 11 0 2 2 3 80 0 24 false 968 88 false 0 ! !
+ object 44 "Server 2U" 0 973 26 ! ! 10 38 2 2 3 80 0 24 false 888 174 false 0 ! !
+ object 45 "Server 2U" 0 795 25 ! ! 10 37 2 2 3 80 0 24 false 888 174 false 0 ! !
+ object 46 "Server 2U" 0 795 27 ! ! 11 39 2 2 3 80 0 24 false 888 174 false 0 ! !
+ object 47 "Server 2U" 0 973 28 ! ! 11 40 2 2 3 80 0 24 false 888 174 false 0 ! !
+ object 48 "Generic 1U" 0 -314 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 49 "Generic 1U" 0 -226 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 50 "Generic 1U" 0 -137 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 51 "Generic 1U" 0 -48 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 52 "Generic 1U" 0 41 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 53 "Generic 1U" 0 130 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 54 "Generic 1U" 0 219 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 55 "Generic 1U" 0 308 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 56 "Generic 1U" 0 397 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 57 "Generic 1U" 0 486 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 58 "Generic 1U" 0 575 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 59 "Generic 1U" 0 663 0 ! ! 10 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 60 "Generic 1U" 0 663 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 61 "Generic 1U" 0 575 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 62 "Generic 1U" 0 486 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 63 "Generic 1U" 0 397 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 64 "Generic 1U" 0 308 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 65 "Generic 1U" 0 219 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 66 "Generic 1U" 0 130 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 67 "Generic 1U" 0 41 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 68 "Generic 1U" 0 -48 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 69 "Generic 1U" 0 -137 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 70 "Generic 1U" 0 -226 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 71 "Generic 1U" 0 -314 0 ! ! 11 0 2 2 3 80 0 24 false 888 88 false 0 ! !
+ object 72 linknode 3596 1112 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 73 linknode 3596 738 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 74 linknode 1670 915 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 75 linknode 2798 915 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 76 linknode 2186 1286 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 77 linknode 2186 934 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 78 linknode 2281 934 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 79 linknode 2281 1291 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 80 linknode 2205 1556 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 81 linknode 2205 950 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 82 linknode 2260 950 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+ object 83 linknode 2260 1556 0 ! ! 0 0 2 2 0 2 0 0 false 16 16 false 0 ! !
+Label_Table Index X Y Text Font_Name Size Bold Italic UL ST Colour Parent_Object Type Backgnd Locked Rotate Ftranspcy Btranspcy Layer Style Parent_Link Link_pos Link_Seg Xoffset Yoffset
+ label 1 851 -108 "Last Updated on $changedate by $changename" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 2 38 -59 "Filename: $filename" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 3 262 -208 "Internet Edge - Rack Diagram" "calibri light" 56 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Title 0 0 0 false
+ label 4 38 -108 "Created on $createdate by $createname" calibri 22 false false false false &h0& -5 object &hFFFFFF& locked 0 255 0 0 Subtitle 0 0 0 false
+ label 5 s 39 ! ! ! ! ! false ! &h0& 16 object ! ! 0 255 0 0 ! 0 0 0 false
+ label 6 n -39 ! ! ! ! ! false ! &h0& 16 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 7 ! 0 ! ! ! ! ! false ! &h0& 1 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 8 n -8 ! ! ! ! ! false ! &h0& 1 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 9 -638 0 "Edge SW1" ! ! ! ! false ! &h0& 19 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 10 -630.5 0 "Pub SW1" ! ! ! ! false ! &h0& 20 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 11 622 0 "Pub SW1" "microsoft sans serif" 16 false false false false &h0& 21 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 12 628 0 "Edge SW2" "microsoft sans serif" 16 false false false false &h0& 22 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 13 626 0 "DMZ SW2" "microsoft sans serif" 16 false false false false &h0& 27 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 14 c 0 "This page is made<<crlf>>using <<crlf>><<quotes>>script objects<<quotes>>." arial 16 true false false false &h0& 24 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 15 653 0 "ASA Secondary" "microsoft sans serif" 16 false false false false &h0& 30 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 16 s 78 ! ! ! ! ! false ! &h0& 24 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 17 c 0 "Script objects<<crlf>>consist of text<<crlf>>statements which<<crlf>>define a vector <<crlf>>graphic. See <<crlf>>Format > Script Object." arial 16 true false false false &h0& 25 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 18 661 0 "Edge Router1" ! ! ! ! false ! &h0& 33 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 19 -657 0 "Edge Router1" ! ! ! ! false ! &h0& 34 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 20 -634.5 0 "ASA Primary" "microsoft sans serif" 16 false false false false &h0& 35 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 21 -622 0 "DMZ SW1" "microsoft sans serif" 16 false false false false &h0& 40 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 22 s 85.5 ! ! ! ! ! false ! &h0& 25 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 23 c 0 "Script objects can contain<<crlf>><<quotes>>align<<quotes>> statements which <<crlf>>ensures objects are<<crlf>>placed in set positions <<crlf>>such as the 1U slots shown<<crlf>>here." arial 16 true false false false &h0& 28 object &hFFFFFF& ! 0 255 0 0 ! 0 0 0 false
+ label 24 s 78 ! ! ! ! ! false ! &h0& 28 ip ! ! 0 255 0 0 ! 0 0 0 false
+ label 25 -620.5 0 Server1 ! ! ! ! false ! &h0& 45 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 26 -620.5 0 Server2 ! ! ! ! false ! &h0& 44 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 27 624.5 0 Server3 ! ! ! ! false ! &h0& 46 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 28 624.5 0 Server4 ! ! ! ! false ! &h0& 47 object ! ! 0 0 0 0 ! 0 0 0 false
+ label 29 871 686.5 "ISP Link1" ! ! ! ! false ! &h0& 0 ! ! ! 0 0 0 0 ! 0 0 0 false
+ label 30 3533 686.5 "ISP Link2" ! ! ! ! false ! &h0& 0 ! ! ! 0 0 0 0 ! 0 0 0 false
+ label 31 ! 0 192.168.100.1 ! ! ! ! false ! &h0& 35 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 32 ! 0 192.168.100.2 ! ! ! ! false ! &h0& 30 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 33 ! 0 192.168.100.252 ! ! ! ! false ! &h0& 34 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 34 ! 0 192.168.100.253 ! ! ! ! false ! &h0& 33 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 35 ! 0 192.168.100.10 ! ! ! ! false ! &h0& 40 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 36 ! 0 192.168.100.10 ! ! ! ! false ! &h0& 27 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 37 ! 0 10.2.1.10 ! ! ! ! false ! &h0& 45 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 38 ! 0 10.2.1.11 ! ! ! ! false ! &h0& 44 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 39 ! 0 10.2.1.12 ! ! ! ! false ! &h0& 46 ip ! ! 0 0 0 0 ! 0 0 0 false
+ label 40 ! 0 10.2.1.13 ! ! ! ! false ! &h0& 47 ip ! ! 0 0 0 0 ! 0 0 0 false
+Link_Table Index Obj1 Obj2 Style Hostname1_Lbl Hostname2_Lbl Addr1_Lbl Addr2_Lbl Comment1 Comment2 Xoffset1 Yoffset1 Xoffset2 Yoffset2 Node_List Align Layer
+ link_object 1 1 1 box 0 0 0 0 ! ! 0 0 0 0 " 2 3 4" False 3 -1
+ link_object 2 5 0 box 0 0 0 0 ! ! 0 0 0 0 " 6 7" False 3 -1
+ link_object 3 8 0 box 0 0 0 0 ! ! 0 0 0 0 " 9" False 3 -1
+ link_object 4 12 0 box 0 0 0 0 ! ! 0 0 0 0 " 13" False 3 -1
+ link_object 5 14 0 box 0 0 0 0 ! ! 0 0 0 0 15 False 3 -1
+ link_object 6 17 0 box 0 0 0 0 ! ! 0 0 0 0 18 False 3 -1
+ link_object 7 24 10 pointer 0 0 0 0 ! ! 4 74 296 -1079 ! True 2 -1
+ link_object 8 19 32 "MM Fibre with arrow" 0 0 0 0 ! ! 318 13 0 0 "29 31" True 2 -1
+ link_object 9 22 73 "MM Fibre with arrow" 0 0 0 0 ! ! 316 15 0 0 "41 72" True 2 -1
+ link_object 10 19 22 Stackwise 0 0 0 0 ! ! 0 -42 0 -42 "74 75" True 3 -1
+ link_object 11 20 21 Stackwise 0 0 0 0 ! ! 444 0 -440 5 "76 77 78 79" False 4 -1
+ link_object 12 40 27 Stackwise 0 0 0 0 ! ! 442 3 -442 3 "80 81 82 83" False 4 -1
+Link_Styles_table Type Format Colour Style Width Misc Angle Style2 Length Endcap Join Startcap Dashcap Transpcy Align Secondary_Style start_cap_type variant width height x y end_cap_type variant width height x y
+ define_link 100baseT 0 &h808080& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 1000BaseT 0 &h9797FF& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "MM Fibre" 0 &hFF8080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "SM Fibre" 0 &h80FF00& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link 10baseT 0 &h808080& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "Leased Line" 1 &hFF00& 1 14 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ISDN 0 &hFF& 3 2 9 1 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link ADSL 1 &hFFFF00& 1 14 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link backbone 0 &hC0C0C0& 1 6 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "black pointer" 0 &h0& 1 1 128 .3 1 13 9 0 0 0 255 False ! 0 0 0 0 0 0 0 1 8 12 0 0 0
+ define_link "red pointer" 0 &hFF& 1 1 128 0 1 15 9 0 0 0 255 False ! 0 0 0 0 0 0 0 1 8 14 0 0 0
+ define_link unknown 0 &h7F7F7F& 1 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "GRE Tunnel" 0 &hFF& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link L2TP 0 &h80FF& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link box 0 &h7C7C7C& 1 1 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "64K LL" 1 &hFFFF& 1 15 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link "100 BaseT Dashed" 0 &h6F6F6F& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+ define_link pointer 0 &h0& 1 1 128 0 0 10 9 0 0 0 255 False ! 0 0 0 0 0 0 0 0 6 10 0 0 0
+ define_link "MM Fibre with arrow" 0 &hFF8080& 1 2 9 0 0 0 9 0 0 0 255 False ! 0 0 0 0 0 0 0 1 12 12 0 0 0
+ define_link Stackwise 0 &hFF& 2 2 9 0 0 0 0 0 0 0 255 False ! 0 0 0 0 0 0 0 0 0 0 0 0 0
+Shapes_Table Name Type Variant Colour1 Transpcy1 Colour2 Transpcy2 Colour3 Transpcy3 Dim1 Dim2 FillX1 FillY1 FillX2 FillY2 Width Height Borderstyle Dashcap Antialias
+ define_shape Textbox 2 0 &h97FFFF& 255 &h0& 255 &h0& 255 1 12 50 0 50 100 89 61 0 0 0
+Script_Objects_Tables
+ script rack24u 560 1156 .2
+ align - screw  47  49  47  93.5  47  138  47  182.5  47  227  47  271.5  47  316  47  360.5  47  405  47  449  47  493.5  47  538  47  582.5  47  627  47  671.5  47  716  47  760.5  47  805  47  849.5  47  893.5  47  938  47  982.5  47  1027  47  1071.5  512  49  512  93.5  512  138  512  182.5  512  227  512  271.5  512  316  512  360.5  512  405  512  449  512  493.5  512  538  512  582.5  512  627  512  671.5  512  716  512  760.5  512  805  512  849.5  512  893.5  512  938  512  982.5  512  1027  512  1071.5
+ path name "top box"
+ path addrectangle 0 0 560 40
+ path name "bottom box"
+ path addrectangle 0 1116 560 40
+ path name "left mount"
+ path addrectangle 30 41 27 1074
+ path name "right mount"
+ path addrectangle 503 41 27 1074
+ path name "left side"
+ path addrectangle 0 41 30 1115
+ path name "right side"
+ path addrectangle 530 41 30 1115
+ path name "1U holes"
+ path addrectangle 0 0 9.5 9.5
+ path startfigure
+ path addrectangle 0 15.9 9.5 9.5
+ path startfigure
+ path addrectangle 0 31.8 9.5 9.5
+ path name "U numbers"
+ path addstring 0 1084.5 1 arial 3.75 1
+ path addstring 0 1040 2 arial 3.75 1
+ path addstring 0 995.5 3 arial 3.75 1
+ path addstring 0 951 4 arial 3.75 1
+ path addstring 0 906.5 5 arial 3.75 1
+ path addstring 0 862 6 arial 3.75 1
+ path addstring 0 817.5 7 arial 3.75 1
+ path addstring 0 773 8 arial 3.75 1
+ path addstring 0 728.5 9 arial 3.75 1
+ path addstring 0 684 10 arial 3.75 1
+ path addstring 0 639.5 11 arial 3.75 1
+ path addstring 0 595 12 arial 3.75 1
+ path addstring 0 550.5 13 arial 3.75 1
+ path addstring 0 506 14 arial 3.75 1
+ path addstring 0 461.5 15 arial 3.75 1
+ path addstring 0 417 16 arial 3.75 1
+ path addstring 0 372.5 17 arial 3.75 1
+ path addstring 0 328 18 arial 3.75 1
+ path addstring 0 283.5 19 arial 3.75 1
+ path addstring 0 239 20 arial 3.75 1
+ path addstring 0 194.5 21 arial 3.75 1
+ path addstring 0 150 22 arial 3.75 1
+ path addstring 0 105.5 23 arial 3.75 1
+ path addstring 0 61 24 arial 3.75 1
+ pen black_pen0.5 &h000000& 255 0.5
+ brush grey_brush &ha0a0a0& 255
+ brush grey_brush2 &hE0E0E0& 255
+ brush black_brush &h040404& 255
+ fill "top box" grey_brush
+ draw "top box" black_pen0.5
+ fill "bottom box" grey_brush
+ draw "bottom box" black_pen0.5
+ fill "left mount" grey_brush2
+ draw "left mount" black_pen0.5
+ fill "right mount" grey_brush2
+ draw "right mount" black_pen0.5
+ fill "left side" grey_brush
+ draw "left side" black_pen0.5
+ fill "right side" grey_brush
+ draw "right side" black_pen0.5
+ fill "1U holes" black_brush 42 44
+ fill "1U holes" black_brush 42 88.5
+ fill "1U holes" black_brush 42 133
+ fill "1U holes" black_brush 42 177.5
+ fill "1U holes" black_brush 42 222
+ fill "1U holes" black_brush 42 266.5
+ fill "1U holes" black_brush 42 311
+ fill "1U holes" black_brush 42 355.5
+ fill "1U holes" black_brush 42 400
+ fill "1U holes" black_brush 42 444
+ fill "1U holes" black_brush 42 488.5
+ fill "1U holes" black_brush 42 533
+ fill "1U holes" black_brush 42 577.5
+ fill "1U holes" black_brush 42 622
+ fill "1U holes" black_brush 42 666.5
+ fill "1U holes" black_brush 42 711
+ fill "1U holes" black_brush 42 755.5
+ fill "1U holes" black_brush 42 800
+ fill "1U holes" black_brush 42 844.5
+ fill "1U holes" black_brush 42 888.5
+ fill "1U holes" black_brush 42 933
+ fill "1U holes" black_brush 42 977.5
+ fill "1U holes" black_brush 42 1022
+ fill "1U holes" black_brush 42 1066.5
+ fill "1U holes" black_brush 508  44
+ fill "1U holes" black_brush 508  88.5
+ fill "1U holes" black_brush 508  133
+ fill "1U holes" black_brush 508  177.5
+ fill "1U holes" black_brush 508  222
+ fill "1U holes" black_brush 508  266.5
+ fill "1U holes" black_brush 508  311
+ fill "1U holes" black_brush 508  355.5
+ fill "1U holes" black_brush 508  400
+ fill "1U holes" black_brush 508  444
+ fill "1U holes" black_brush 508  488.5
+ fill "1U holes" black_brush 508  533
+ fill "1U holes" black_brush 508  577.5
+ fill "1U holes" black_brush 508  622
+ fill "1U holes" black_brush 508  666.5
+ fill "1U holes" black_brush 508  711
+ fill "1U holes" black_brush 508  755.5
+ fill "1U holes" black_brush 508  800
+ fill "1U holes" black_brush 508  844.5
+ fill "1U holes" black_brush 508  888.5
+ fill "1U holes" black_brush 508  933
+ fill "1U holes" black_brush 508  977.5
+ fill "1U holes" black_brush 508  1022
+ fill "1U holes" black_brush 508  1066.5
+ fill "U Numbers" black_brush 522 0
+ fill "U Numbers" black_brush 31 0
+ script "Cisco WS-C3850-24T Front" 444 44 .2
+ align + screw -11  6  454  6
+ align - "3850 Network Module"  402  22
+ path name "1U Box"
+ path addrectangle 0 0 444 44
+ path name rj45
+ path addlines 2 4 2 2 3.5 2 3.5 1 9 1 9 2 10.5 2 10.5 4 12.5 4 12.5 11 0 11 0 4
+ path name grey_background3
+ path addrectangle 0 0 85 26
+ path name vent
+ path addarc 0 0 6 6 90 180
+ path addarc 78 0 6 6 270 180
+ path name module
+ path addrectangle 0 0 77 40
+ path name logo
+ path startfigure
+ path addline 0 4 0 3
+ path startfigure
+ path addline 1.5 4 1.5 2
+ path startfigure
+ path addline 3 5 3 1
+ path startfigure
+ path addline 4.5 4 4.5 2
+ path startfigure
+ path addline 6 4 6 3
+ path startfigure
+ path addline 7.5 4 7.5 2
+ path startfigure
+ path addline 9 5 9 1
+ path startfigure
+ path addline 10.5 4 10.5 2
+ path startfigure
+ path addline 12 4 12 3
+ path name brand
+ path addstring 0 0 CISCO arial 2.25 1
+ path name usb_black_box
+ path addrectangle 0 0 12.5 5
+ path name usb_grey_box
+ path addrectangle 0 0 10.5 1.5
+ path name mini_usb_bg
+ path addlines 0 0 9 0 7.5 5 1.5 5 0 0
+ path name mini_usb_socket
+ path addlines 0 0.5 8 0.5 7 3.5 1 3.5 0 0.5
+ path name LED
+ path startfigure
+ path addarc 0 0 2 2 270 -180
+ path addarc 4 0 2 2 90 -180
+ path closefigure
+ path name "mode button"
+ path addarc 0 0 6 6 0 360
+ path name mode
+ path addstring 0 0 "Mode" arial 2 0
+ path name console
+ path addstring 0 0 "CONSOLE" arial 1.5 0
+ path name label2x
+ path addstring 0 0 "02X" arial 2 0
+ path name label12x
+ path addstring 0 0 "12X" arial 2 0
+ path name label14x
+ path addstring 0 0 "14X" arial 2 0
+ path name label24x
+ path addstring 0 0 "24X" arial 2 0
+ path name portledbox
+ path addrectangle 0 0 4 2
+ path name uptangle
+ path addlines 0.5 2 2 0 3.5 2 0.5 2
+ path name downtangle
+ path addlines 0.5 0 2 2 3.5 0 0.5 0
+ path name bracket
+ path addlines 0 0 20 0 20 44 0 44 0 0
+ path startfigure
+ path addarc 5 4 5 5 90 180
+ path addarc 9 4 5 5 270 180
+ path closefigure
+ path startfigure
+ path addarc 5 35 5 5 90 180
+ path addarc 9 35 5 5 270 180
+ path closefigure
+ path startfigure
+ path addarc 8 20 4 4 90 360
+ path name screw
+ path addarc 0 0 8 8 0 360
+ path name screwhead
+ path startfigure
+ path addlines 3 2 2 3 3 4 2 5 3 6 4 5 5 6 6 5 5 4 6 3 5 2 4 3
+ path closefigure
+ pen black_pen1 &h000000& 255 0.1
+ pen dark_grey_pen1 &h606060& 255 0.5
+ pen dark_grey_pen4 &h606060& 255 1.75
+ pen light_grey_pen1 &hE6E6E6& 255 0.5
+ pen grey_pen1 &hd0d0d0& 255 0.25
+ pen black_pen0.25 &h000000& 255 0.1
+ brush light_grey_brush &hEFEFEF& 255
+ brush light_grey_brush2 &hc0c0c0& 255
+ brush light_grey_brush3 &hD8D8D8& 255
+ brush white_brush &hffffff& 255
+ brush dark_grey_brush &h606060& 255
+ brush black_brush &h000000& 255
+ brush grey_brush &h808080& 255
+ fill "1U Box" light_grey_brush3 0 0
+ draw "1U Box" dark_grey_pen1 0 0
+ fill grey_background3 light_grey_brush 185 10
+ fill grey_background3 light_grey_brush 273 10
+ fill rj45 black_brush 186.5 10.5
+ fill rj45 black_brush 200.5 10.5
+ fill rj45 black_brush 214.5 10.5
+ fill rj45 black_brush 228.5 10.5
+ fill rj45 black_brush 242.5 10.5
+ fill rj45 black_brush 256.5 10.5
+ fill rj45 black_brush 186.5 35.5 1 -1
+ fill rj45 black_brush 200.5 35.5 1 -1
+ fill rj45 black_brush 214.5 35.5 1 -1
+ fill rj45 black_brush 228.5 35.5 1 -1
+ fill rj45 black_brush 242.5 35.5 1 -1
+ fill rj45 black_brush 256.5 35.5 1 -1
+ fill rj45 black_brush 274.5 10.5
+ fill rj45 black_brush 288.5 10.5
+ fill rj45 black_brush 302.5 10.5
+ fill rj45 black_brush 316.5 10.5
+ fill rj45 black_brush 330.5 10.5
+ fill rj45 black_brush 344.5 10.5
+ fill rj45 black_brush 274.5 35.5 1 -1
+ fill rj45 black_brush 288.5 35.5 1 -1
+ fill rj45 black_brush 302.5 35.5 1 -1
+ fill rj45 black_brush 316.5 35.5 1 -1
+ fill rj45 black_brush 330.5 35.5 1 -1
+ fill rj45 black_brush 344.5 35.5 1 -1
+ fill vent black_brush 186.5 2
+ fill vent black_brush 272.5 2
+ fill vent black_brush 100 2
+ draw module black_pen1 364 2
+ fill screw light_grey_brush2 368 7 0.8 0.8
+ draw screw dark_grey_pen1 368 7 0.8 0.8
+ fill screwhead dark_grey_brush 368 7 0.8 0.8
+ fill screw light_grey_brush2 430 7 0.8 0.8
+ draw screw dark_grey_pen1 430 7 0.8 0.8
+ fill screwhead dark_grey_brush 430 7 0.8 0.8
+ draw logo black_pen1 2 1
+ fill brand black_brush 2.5 6
+ fill usb_black_box black_brush 82.5 3
+ draw usb_black_box light_grey_pen1 82.5 3
+ fill usb_grey_box grey_brush 83.5 4
+ fill mini_usb_socket black_brush 68.5 3
+ draw mini_usb_socket grey_pen1 69 3.25
+ fill console black_brush 66 7
+ fill LED light_grey_brush 60 3
+ draw LED black_pen0.25 60 3
+ fill LED light_grey_brush 52 3
+ draw LED black_pen0.25 52 3
+ fill LED light_grey_brush 44 3
+ draw LED black_pen0.25 44 3
+ fill LED light_grey_brush 36 3
+ draw LED black_pen0.25 36 3
+ fill LED light_grey_brush 28 3
+ draw LED black_pen0.25 28 3
+ fill LED light_grey_brush 52 7
+ draw LED black_pen0.25 52 7
+ fill LED light_grey_brush 44 7
+ draw LED black_pen0.25 44 7
+ fill LED light_grey_brush 36 7
+ draw LED black_pen0.25 36 7
+ fill LED light_grey_brush 28 7
+ draw LED black_pen0.25 28 7
+ fill "mode button" black_brush 18 2
+ fill mode black_brush 17 8
+ fill label2x black_brush 182 35
+ fill label12x black_brush 266 35
+ fill label14x black_brush 272 35
+ fill label24x black_brush 355 35
+ fill portledbox light_grey_brush2 187 38
+ fill uptangle black_brush 187 38
+ fill portledbox light_grey_brush2 193 38
+ fill downtangle black_brush 193 38
+ fill portledbox light_grey_brush2 201 38
+ fill uptangle black_brush 201 38
+ fill portledbox light_grey_brush2 207 38
+ fill downtangle black_brush 207 38
+ fill portledbox light_grey_brush2 215 38
+ fill uptangle black_brush 215 38
+ fill portledbox light_grey_brush2 221 38
+ fill downtangle black_brush 221 38
+ fill portledbox light_grey_brush2 229 38
+ fill uptangle black_brush 229 38
+ fill portledbox light_grey_brush2 235 38
+ fill downtangle black_brush 235 38
+ fill portledbox light_grey_brush2 243 38
+ fill uptangle black_brush 243 38
+ fill portledbox light_grey_brush2 249 38
+ fill downtangle black_brush 249 38
+ fill portledbox light_grey_brush2 257 38
+ fill uptangle black_brush 257 38
+ fill portledbox light_grey_brush2 263 38
+ fill downtangle black_brush 263 38
+ fill portledbox light_grey_brush2 275 38
+ fill uptangle black_brush 275 38
+ fill portledbox light_grey_brush2 281 38
+ fill downtangle black_brush 281 38
+ fill portledbox light_grey_brush2 289 38
+ fill uptangle black_brush 289 38
+ fill portledbox light_grey_brush2 295 38
+ fill downtangle black_brush 295 38
+ fill portledbox light_grey_brush2 303 38
+ fill uptangle black_brush 303 38
+ fill portledbox light_grey_brush2 309 38
+ fill downtangle black_brush 309 38
+ fill portledbox light_grey_brush2 317 38
+ fill uptangle black_brush 317 38
+ fill portledbox light_grey_brush2 323 38
+ fill downtangle black_brush 323 38
+ fill portledbox light_grey_brush2 331 38
+ fill uptangle black_brush 331 38
+ fill portledbox light_grey_brush2 337 38
+ fill downtangle black_brush 337 38
+ fill portledbox light_grey_brush2 345 38
+ fill uptangle black_brush 345 38
+ fill portledbox light_grey_brush2 351 38
+ fill downtangle black_brush 351 38
+ option "brackets and screws"
+ draw bracket dark_grey_pen1 -20.5 0
+ fill bracket light_grey_brush -20.5 0
+ draw bracket dark_grey_pen1 464.5 0 -1 1
+ fill bracket light_grey_brush 464.5 0 -1 1
+ fill screw light_grey_brush2 -15 2
+ draw screw dark_grey_pen1 -15 2
+ fill screwhead dark_grey_brush -15 2
+ fill screw light_grey_brush2 450.5 2
+ draw screw dark_grey_pen1 450.5 2
+ fill screwhead dark_grey_brush 450.5 2
+ fill screw light_grey_brush2 -15 33
+ draw screw dark_grey_pen1 -15 33
+ fill screwhead dark_grey_brush -15 33
+ fill screw light_grey_brush2 450.5 33
+ draw screw dark_grey_pen1 450.5 33
+ fill screwhead dark_grey_brush 450.5 33
+ script 3850-NM4 77 40 .3
+ align + "3850 Network Module"  38  20
+ path name module
+ path addrectangle 0 0 77 40
+ path name vent
+ path addarc 0 0 6 6 90 180
+ path addarc 38 0 6 6 270 180
+ path name "SFP Slot"
+ path addrectangle 0 0 14 9
+ path name screw
+ path addarc 0 0 8 8 0 360
+ path name screwhead
+ path startfigure
+ path addlines 3 2 2 3 3 4 2 5 3 6 4 5 5 6 6 5 5 4 6 3 5 2 4 3
+ path closefigure
+ pen black_pen1 &h000000& 255 0.1
+ pen dark_grey_pen1 &h606060& 255 0.5
+ pen silver_pen &hFFFFFF& 255 1
+ brush light_grey_brush2 &hc0c0c0& 255
+ brush dark_grey_brush &h606060& 255
+ brush black_brush &h000000& 255
+ brush light_grey_brush3 &hD8D8D8& 255
+ fill module light_grey_brush3 0 0
+ draw module black_pen1 0 0
+ fill screw light_grey_brush2 4 5 0.8 0.8
+ draw screw dark_grey_pen1 4 5 0.8 0.8
+ fill screwhead dark_grey_brush 4 5 0.8 0.8
+ fill screw light_grey_brush2 66 5 0.8 0.8
+ draw screw dark_grey_pen1 66 5 0.8 0.8
+ fill screwhead dark_grey_brush 66 5 0.8 0.8
+ fill vent dark_grey_brush 16 2
+ fill vent dark_grey_brush 16 10
+ fill "SFP Slot" black_brush 9 22
+ fill "SFP Slot" black_brush 24 22
+ fill "SFP Slot" black_brush 39 22
+ fill "SFP Slot" black_brush 54 22
+ draw "SFP Slot" silver_pen 9 22
+ draw "SFP Slot" silver_pen 24 22
+ draw "SFP Slot" silver_pen 39 22
+ draw "SFP Slot" silver_pen 54 22
+ script "Cisco ASA5516-X Rear" 444 44 .7
+ align + screw -11  6  454  6
+ path name "1U Box"
+ path addrectangle 0 0 444 44
+ path name lid
+ path addlines 0 44 0 0 444 0 444 44
+ path name rj45
+ path addlines 2 4 2 2 3.5 2 3.5 1 9 1 9 2 10.5 2 10.5 4 12.5 4 12.5 11 0 11 0 4
+ path name "port numbers"
+ path addstring 0 0 "1               2               3              4              5              6             7               8" arial 2.25 0
+ path name grey_background3
+ path addrectangle 0 0 114 13
+ path name grey_background2
+ path addrectangle 0 0 15 28
+ path name mini_usb_bg
+ path addlines 0 0 9 0 7.5 5 1.5 5 0 0
+ path name mini_usb_socket
+ path addlines 0 0.5 8 0.5 7 3.5 1 3.5 0 0.5
+ path name "big vent"
+ path addarc 0 0 4 4 0 360
+ path addarc 4 0 4 4 0 360
+ path addarc 8 0 4 4 0 360
+ path addarc 12 0 4 4 0 360
+ path addarc 16 0 4 4 0 360
+ path addarc 20 0 4 4 0 360
+ path addarc 24 0 4 4 0 360
+ path addarc 28 0 4 4 0 360
+ path addarc 32 0 4 4 0 360
+ path addarc 36 0 4 4 0 360
+ path addarc 40 0 4 4 0 360
+ path addarc 44 0 4 4 0 360
+ path addarc 48 0 4 4 0 360
+ path name "small vent"
+ path addarc 0 0 3 3 0 360
+ path addarc 4 0 3 3 0 360
+ path addarc 8 0 3 3 0 360
+ path addarc 12 0 3 3 0 360
+ path addarc 16 0 3 3 0 360
+ path addarc 20 0 3 3 0 360
+ path addarc 24 0 3 3 0 360
+ path name "PSU panel"
+ path addrectangle 0 0 55 27
+ path name "IEC socket"
+ path startfigure
+ path addlines 5.8 0 17.9 0 24.2 4
+ path addarc 21.2 13.5 3 3 0 90
+ path addlines 15 16.5 15 14 9 14 9 16.5
+ path addarc 0 13.5 3 3 90 90
+ path addlines 0 13.5 0 4
+ path closefigure
+ path name "Power pin"
+ path addrectangle 0 0 2 4
+ path name "Power sw1"
+ path addrectangle 0 0 15 18
+ path name "Power sw2"
+ path addrectangle 0 0 11 14
+ path addline 0 11 11 11
+ path name "Power sw3"
+ path addline 0 0 0 4
+ path name "Power sw4"
+ path addarc 0 0 3 2 0 360
+ path name earth
+ path addarc 0 0 5 5 0 360
+ path startfigure
+ path addline 2.5 0 2.5 5
+ path startfigure
+ path addline 1 2.5 4 2.5
+ path startfigure
+ path addline 1.5 3.5 3.5 3.5
+ path name slot1
+ path addrectangle 0 0 65 20
+ path name slot2
+ path addlines 10 0 75 0 75 2 85 2 85 14 75 14 75 16 10 16 10 14 0 14 0 2 10 2 10 0
+ path name "yellow line"
+ path addline 0 0 115 0
+ path name "yellow line2"
+ path addline 0 0 15 0
+ path name "blue line"
+ path addline 0 0 28 0
+ path name console
+ path addstring 0 0 "CONSOLE" arial 2.25 1
+ path name button
+ path addarc 0 0 4 4 0 360
+ path name reset
+ path addstring 0 0 "RESET" arial 2.25 1
+ path name power
+ path addstring 0 0 "POWER" arial 1.8 1
+ path name status
+ path addstring 0 0 "STATUS" arial 1.8 1
+ path name active
+ path addstring 0 0 "ACTIVE" arial 1.8 1
+ path name SSD
+ path addstring 0 0 "SSD" arial 1.8 1
+ path name MGMT
+ path addstring 0 0 "GE MGMT" arial 2.25 1
+ path name LED
+ path addrectangle 0 0 3 2
+ path name wormhole
+ path addarc 0 0 3 3 0 360
+ path name bracket
+ path addlines 0 0 20 0 20 44 0 44 0 0
+ path startfigure
+ path addarc 5 4 5 5 90 180
+ path addarc 9 4 5 5 270 180
+ path closefigure
+ path startfigure
+ path addarc 5 35 5 5 90 180
+ path addarc 9 35 5 5 270 180
+ path closefigure
+ path startfigure
+ path addarc 8 20 4 4 90 360
+ path name screw
+ path addarc 0 0 8 8 0 360
+ path name screwhead
+ path startfigure
+ path addlines 3 2 2 3 3 4 2 5 3 6 4 5 5 6 6 5 5 4 6 3 5 2 4 3
+ path closefigure
+ path name usb_black_box
+ path addrectangle 0 0 4 12.5
+ path name usb_grey_box
+ path addrectangle 0 0 1.5 10.5
+ pen black_pen1 &h000000& 255 0.1
+ pen dark_grey_pen1 &h606060& 255 0.5
+ pen dark_grey_pen4 &h606060& 255 1.75
+ pen light_grey_pen1 &hE6E6E6& 255 0.5
+ pen grey_pen1 &hd0d0d0& 255 0.25
+ pen black_pen0.25 &h000000& 255 0.1
+ pen light_grey_pen2 &hFFFFFF& 255 0.1
+ pen yellow_pen &h80FFFF& 255 1.5
+ pen light_blue_pen &hFDF8B3& 255 4
+ pen grey_pen3 &h9B9B9B& 255 0.1
+ brush light_grey_brush &hEFEFEF& 255
+ brush light_grey_brush2 &hc0c0c0& 255
+ brush light_grey_brush3 &hD8D8D8& 255
+ brush white_brush &hffffff& 255
+ brush dark_grey_brush &h606060& 255
+ brush black_brush &h000000& 255
+ brush grey_brush &h808080& 255
+ brush grey_brush-1 &h606060& 255
+ brush green_brush &h259E65& 255
+ brush almost_black_brush &h373737& 255
+ fill "1U Box" light_grey_brush3 0 0
+ draw lid dark_grey_pen1 0 0
+ fill grey_background3 light_grey_brush 155 22
+ draw grey_background3 grey_pen3 155 22
+ fill rj45 black_brush 156.5 22.5
+ fill rj45 black_brush 170.5 22.5
+ fill rj45 black_brush 184.5 22.5
+ fill rj45 black_brush 198.5 22.5
+ fill rj45 black_brush 212.5 22.5
+ fill rj45 black_brush 226.5 22.5
+ fill rj45 black_brush 240.5 22.5
+ fill rj45 black_brush 254.5 22.5
+ draw "yellow line" yellow_pen 155 37
+ draw "yellow line2" yellow_pen 277 7
+ draw "blue line" light_blue_pen 277 39
+ fill console black_brush 284 37
+ fill MGMT black_brush 277 2
+ fill "port numbers" black_brush 161 38
+ fill grey_background2 light_grey_brush 277 8
+ fill rj45 black_brush 278 9.5
+ fill rj45 black_brush 278 35.5 1 -1
+ fill slot1 black_brush 368 22
+ fill slot2 light_grey_brush3 358 24
+ draw slot2 dark_grey_pen1 358 24
+ fill screw light_grey_brush2 360 28 0.8 0.8
+ draw screw dark_grey_pen1 360 28 0.8 0.8
+ fill screwhead dark_grey_brush 360 28 0.8 0.8
+ fill screw light_grey_brush2 435 28 0.8 0.8
+ draw screw dark_grey_pen1 435 28 0.8 0.8
+ fill screwhead dark_grey_brush 435 28 0.8 0.8
+ fill mini_usb_socket black_brush 296.5 30
+ draw mini_usb_socket grey_pen1 297 30.25
+ fill usb_black_box black_brush 315 22
+ fill usb_grey_box grey_brush-1 316 23
+ fill "big vent" black_brush 212 5
+ fill "big vent" black_brush 214.5 9
+ fill "big vent" black_brush 212 13
+ fill "small vent" black_brush 6 32
+ fill "small vent" black_brush 8 35
+ fill "small vent" black_brush 6 38
+ fill "small vent" black_brush 34 32
+ fill "small vent" black_brush 36 35
+ fill "small vent" black_brush 34 38
+ fill "small vent" black_brush 62 32
+ fill "small vent" black_brush 64 35
+ fill "small vent" black_brush 62 38
+ fill "small vent" black_brush 92 16
+ fill "small vent" black_brush 94 19
+ fill "small vent" black_brush 92 22
+ fill "small vent" black_brush 94 25
+ fill "small vent" black_brush 92 28
+ fill "small vent" black_brush 94 31
+ fill "small vent" black_brush 312 4
+ fill "small vent" black_brush 314 7
+ fill "small vent" black_brush 312 10
+ fill "small vent" black_brush 314 13
+ fill "small vent" black_brush 312 16
+ fill "PSU panel" almost_black_brush 16 3
+ fill "IEC socket" black_brush 42 8
+ draw "IEC socket" dark_grey_pen1 42 8
+ fill "Power pin" light_grey_brush 53 11
+ fill "Power pin" light_grey_brush 46.7 15
+ fill "Power pin" light_grey_brush 59.3 15
+ fill "Power sw1" black_brush 23 7
+ draw "power sw2" dark_grey_pen1 25 9
+ draw "power sw3" dark_grey_pen1 31 10
+ draw "power sw4" dark_grey_pen1 29 16
+ fill button black_brush 325 28
+ fill reset black_brush 322 35
+ fill power black_brush 123 38
+ fill status black_brush 134 38
+ fill active black_brush 145 38
+ fill SSD black_brush 342 38
+ fill LED green_brush 128 34
+ fill LED green_brush 138 34
+ fill LED green_brush 148 34
+ fill LED green_brush 344 34
+ fill wormhole black_brush 80 10
+ fill wormhole black_brush 183 10
+ fill screw light_grey_brush2 5 10 0.7 0.7
+ draw screw dark_grey_pen1 5 10 0.7 0.7
+ fill screwhead dark_grey_brush 5 10 0.7 0.7
+ draw earth dark_grey_pen1 5.25 3
+ option "brackets and screws"
+ draw bracket dark_grey_pen1 -20.5 0
+ fill bracket light_grey_brush -20.5 0
+ draw bracket dark_grey_pen1 464.5 0 -1 1
+ fill bracket light_grey_brush 464.5 0 -1 1
+ fill screw light_grey_brush2 -15 2
+ draw screw dark_grey_pen1 -15 2
+ fill screwhead dark_grey_brush -15 2
+ fill screw light_grey_brush2 450.5 2
+ draw screw dark_grey_pen1 450.5 2
+ fill screwhead dark_grey_brush 450.5 2
+ fill screw light_grey_brush2 -15 33
+ draw screw dark_grey_pen1 -15 33
+ fill screwhead dark_grey_brush -15 33
+ fill screw light_grey_brush2 450.5 33
+ draw screw dark_grey_pen1 450.5 33
+ fill screwhead dark_grey_brush 450.5 33
+ script "Cisco ASR1001-X" 444 44 .1
+ align + screw -11  6  454  6
+ path name "1U Box"
+ path addrectangle 0 0 444 44
+ path name rj45
+ path addlines 2 4 2 2 3.5 2 3.5 1 9 1 9 2 10.5 2 10.5 4 12.5 4 12.5 11 0 11 0 4
+ path name grey_background3
+ path addrectangle 0 0 16 26
+ path name grey_background4
+ path addrectangle 0 0 16 30
+ path name NIMa
+ path addrectangle 0 0 78 32
+ path name NIMb
+ path addrectangle 0 0 92 31
+ path name usb_black_box
+ path addrectangle 0 0 12.5 5
+ path name usb_grey_box
+ path addrectangle 0 0 10.5 1.5
+ path name mini_usb_bg
+ path addlines 0 0 9 0 7.5 5 1.5 5 0 0
+ path name mini_usb_socket
+ path addlines 0 0.5 8 0.5 7 3.5 1 3.5 0 0.5
+ path name SPAa
+ path addrectangle 0 0 155 18
+ path name SPAb
+ path addlines 10 0 165 0 165 2 175 2 175 14 165 14 165 16 10 16 10 14 0 14 0 2 10 2 10 0
+ path name "SFP Slot"
+ path addrectangle 0 0 14 9
+ path name "SFP label1"
+ path addarc 0 0 3 3 180 90
+ path addlines 12 0 14 3 14 5 0 5 0 3
+ path name "SFP label2"
+ path addline 3 0 41 0
+ path addarc 41 0 3 3 270 90
+ path addlines 44 5 0 5 0 4 3 0
+ path name "SFP label3"
+ path addarc 0 0 3 3 180 90
+ path addarc 12 0 3 3 270 90
+ path addlines 15 5 0 5
+ path name "SFP top"
+ path addstring 0 0 "TE1               GE1            GE3           GE5" arial 2 0
+ path name "SFP bottom"
+ path addstring 0 0 "TE0               GE0            GE2           GE4" arial 2 0
+ path name AUX
+ path addstring 0 0 "AUX" arial 2 0
+ path name CONBG
+ path addarc 0 0 5 5 90 180
+ path addarc 5 0 5 5 270 180
+ path name CON
+ path addstring 0 0 "CON" arial 2 0
+ path name USBMGMT
+ path addstring 0 0 "USBMGMT" arial 2 0
+ path name vent1
+ path addrectangle 0 0 154 10
+ path name vent2
+ path addline 0 0 157 0
+ path name vent3
+ path addline 0 0 0 12
+ path name vent4
+ path addrectangle 0 0 4 4
+ path name vent5
+ path addrectangle 0 0 4 4
+ path addrectangle 0 6 4 4
+ path addrectangle 0 12 4 4
+ path addrectangle 0 18 4 4
+ path name vent6
+ path addrectangle 0 0 4 4
+ path addrectangle 0 6 4 4
+ path name vent7
+ path addarc 0 0 2 2 90 180
+ path addarc 3 0 2 2 270 180
+ path closefigure
+ path addarc 0 5 2 2 90 180
+ path addarc 3 5 2 2 270 180
+ path closefigure
+ path addarc 0 10 2 2 90 180
+ path addarc 3 10 2 2 270 180
+ path closefigure
+ path addarc 0 15 2 2 90 180
+ path addarc 3 15 2 2 270 180
+ path closefigure
+ path addarc 0 20 2 2 90 180
+ path addarc 3 20 2 2 270 180
+ path closefigure
+ path addarc 0 25 2 2 90 180
+ path addarc 3 25 2 2 270 180
+ path name vent8
+ path addarc 0 0 2 2 90 180
+ path addarc 3 0 2 2 270 180
+ path closefigure
+ path addarc 0 5 2 2 90 180
+ path addarc 3 5 2 2 270 180
+ path name LED
+ path addarc 0 0 3.5 3.5 0 360
+ path name logo
+ path startfigure
+ path addline 0 4 0 3
+ path startfigure
+ path addline 1.5 4 1.5 2
+ path startfigure
+ path addline 3 5 3 1
+ path startfigure
+ path addline 4.5 4 4.5 2
+ path startfigure
+ path addline 6 4 6 3
+ path startfigure
+ path addline 7.5 4 7.5 2
+ path startfigure
+ path addline 9 5 9 1
+ path startfigure
+ path addline 10.5 4 10.5 2
+ path startfigure
+ path addline 12 4 12 3
+ path name brand
+ path addstring 0 0 CISCO arial 2.5 1
+ path name model
+ path addstring 0 0 "Cisco ASR1001-X" arial 2.5 1
+ path name laserBG
+ path addarc 0 0 5 5 90 180
+ path addarc 50 0 5 5 270 180
+ path name laser
+ path addstring 0 0 "CLASS 1 LASER PRODUCT" arial 2.25 1
+ path name bracket
+ path addlines 0 0 20 0 20 44 0 44 0 0
+ path startfigure
+ path addarc 5 4 5 5 90 180
+ path addarc 9 4 5 5 270 180
+ path closefigure
+ path startfigure
+ path addarc 5 35 5 5 90 180
+ path addarc 9 35 5 5 270 180
+ path closefigure
+ path startfigure
+ path addarc 8 20 4 4 90 360
+ path name screw
+ path addarc 0 0 8 8 0 360
+ path name screwhead
+ path startfigure
+ path addlines 3 2 2 3 3 4 2 5 3 6 4 5 5 6 6 5 5 4 6 3 5 2 4 3
+ path closefigure
+ pen black_pen1 &h000000& 255 0.1
+ pen dark_grey_pen1 &h606060& 255 0.5
+ pen dark_grey_pen4 &h606060& 255 1.75
+ pen light_grey_pen1 &hE6E6E6& 255 0.5
+ pen grey_pen1 &hd0d0d0& 255 0.25
+ pen black_pen0.25 &h000000& 255 0.1
+ pen silver_pen &hFFFFFF& 255 1
+ pen silver_pen4 &hD8D8D8& 255 2
+ brush light_grey_brush &hEFEFEF& 255
+ brush light_grey_brush2 &hc0c0c0& 255
+ brush light_grey_brush3 &hD8D8D8& 255
+ brush white_brush &hffffff& 255
+ brush dark_grey_brush &h606060& 255
+ brush black_brush &h000000& 255
+ brush grey_brush &h808080& 255
+ brush orange_brush &h0958FF& 255
+ brush yellow_brush &h80FFFF& 255
+ brush blue_brush &hFFFFA6& 255
+ fill "1U Box" light_grey_brush3 0 0
+ draw "1U Box" dark_grey_pen1 0 0
+ fill grey_background3 light_grey_brush 221 10
+ fill rj45 black_brush 222.5 10.5
+ fill rj45 black_brush 222.5 35.5 1 -1
+ fill grey_background4 light_grey_brush 243 4
+ fill rj45 black_brush 244.5 5
+ fill usb_black_box black_brush 244.5 20
+ draw usb_black_box light_grey_pen1 244.5 20
+ fill usb_grey_box grey_brush 245.5 21
+ fill usb_black_box black_brush 244.5 29
+ draw usb_black_box light_grey_pen1 244.5 29
+ fill usb_grey_box grey_brush 245.5 30
+ fill NIMa black_brush 18 1.5
+ fill NIMb light_grey_brush 11 2
+ fill vent7 black_brush 19 4
+ fill vent7 black_brush 26 4
+ fill vent7 black_brush 84 4
+ fill vent7 black_brush 91 4
+ fill vent8 black_brush 34 4
+ fill vent8 black_brush 41 4
+ fill vent8 black_brush 48 4
+ fill vent8 black_brush 55 4
+ fill vent8 black_brush 62 4
+ fill vent8 black_brush 69 4
+ fill vent8 black_brush 76 4
+ fill vent8 black_brush 34 24
+ fill vent8 black_brush 41 24
+ fill vent8 black_brush 48 24
+ fill vent8 black_brush 55 24
+ fill vent8 black_brush 62 24
+ fill vent8 black_brush 69 24
+ fill vent8 black_brush 76 24
+ fill screw light_grey_brush2 12 13 0.8 0.8
+ draw screw dark_grey_pen1 12 13 0.8 0.8
+ fill screwhead dark_grey_brush 12 13 0.8 0.8
+ fill screw light_grey_brush2 97 13 0.8 0.8
+ draw screw dark_grey_pen1 97 13 0.8 0.8
+ fill screwhead dark_grey_brush 97 13 0.8 0.8
+ fill mini_usb_socket black_brush 115.5 30
+ draw mini_usb_socket grey_pen1 116 30.25
+ fill "SFP Slot" black_brush 155 10
+ fill "SFP Slot" black_brush 170 10
+ fill "SFP Slot" black_brush 185 10
+ fill "SFP Slot" black_brush 200 10
+ draw "SFP Slot" silver_pen 155 10
+ draw "SFP Slot" silver_pen 170 10
+ draw "SFP Slot" silver_pen 185 10
+ draw "SFP Slot" silver_pen 200 10
+ fill "SFP Slot" black_brush 155 27
+ fill "SFP Slot" black_brush 170 27
+ fill "SFP Slot" black_brush 185 27
+ fill "SFP Slot" black_brush 200 27
+ draw "SFP Slot" silver_pen 155 27
+ draw "SFP Slot" silver_pen 170 27
+ draw "SFP Slot" silver_pen 185 27
+ draw "SFP Slot" silver_pen 200 27
+ fill "SFP label1" orange_brush 155 4
+ fill "SFP label2" yellow_brush 170 4
+ fill "SFP label1" orange_brush 155 42 1 -1
+ fill "SFP label2" yellow_brush 170 42 1 -1
+ fill "SFP top" black_brush 158 5
+ fill "SFP bottom" black_brush 158 37
+ fill "SFP label3" black_brush 221 4
+ fill "SFP label3" blue_brush 221 42 1 -1
+ fill "SFP label3" black_brush 244 42 1 -1
+ fill AUX white_brush 225 5
+ fill CON black_brush 225 37
+ fill CONBG blue_brush 115 35
+ fill CON black_brush 116 36
+ fill USBMGMT white_brush 244 37
+ fill LED black_brush 128 30
+ fill LED black_brush 136 30
+ fill LED black_brush 144 30
+ fill LED black_brush 136 24
+ fill LED black_brush 144 24
+ fill LED black_brush 144 18
+ fill SPAa black_brush 275 3
+ fill SPAb light_grey_brush 265 4
+ fill screw light_grey_brush2 266 9 0.8 0.8
+ draw screw dark_grey_pen1 266 9 0.8 0.8
+ fill screwhead dark_grey_brush 266 9 0.8 0.8
+ fill screw light_grey_brush2 432 9 0.8 0.8
+ draw screw dark_grey_pen1 432 9 0.8 0.8
+ fill screwhead dark_grey_brush 432 9 0.8 0.8
+ fill vent1 black_brush 275 28
+ draw vent2 silver_pen4 274 33
+ draw vent3 silver_pen4 280 27
+ draw vent3 silver_pen4 286 27
+ draw vent3 silver_pen4 292 27
+ draw vent3 silver_pen4 298 27
+ draw vent3 silver_pen4 304 27
+ draw vent3 silver_pen4 310 27
+ draw vent3 silver_pen4 316 27
+ draw vent3 silver_pen4 322 27
+ draw vent3 silver_pen4 328 27
+ draw vent3 silver_pen4 334 27
+ draw vent3 silver_pen4 340 27
+ draw vent3 silver_pen4 346 27
+ draw vent3 silver_pen4 352 27
+ draw vent3 silver_pen4 358 27
+ draw vent3 silver_pen4 364 27
+ draw vent3 silver_pen4 370 27
+ draw vent3 silver_pen4 376 27
+ draw vent3 silver_pen4 382 27
+ draw vent3 silver_pen4 388 27
+ draw vent3 silver_pen4 394 27
+ draw vent3 silver_pen4 400 27
+ draw vent3 silver_pen4 406 27
+ draw vent3 silver_pen4 412 27
+ draw vent3 silver_pen4 418 27
+ draw vent3 silver_pen4 424 27
+ fill vent4 black_brush 4 4
+ fill vent4 black_brush 4 10
+ fill vent4 black_brush 4 16
+ fill vent4 black_brush 4 22
+ fill vent4 black_brush 4 28
+ fill vent4 black_brush 4 34
+ fill vent5 black_brush 107 4
+ fill vent5 black_brush 113 4
+ fill vent5 black_brush 119 4
+ fill vent5 black_brush 125 4
+ fill vent6 black_brush 131 4
+ fill vent6 black_brush 137 4
+ fill vent6 black_brush 143 4
+ fill vent6 black_brush 149 4
+ fill vent6 black_brush 107 28
+ fill vent4 black_brush 131 16
+ fill vent4 black_brush 137 16
+ fill vent4 black_brush 216 4
+ fill vent4 black_brush 216 10
+ fill vent4 black_brush 216 16
+ fill vent4 black_brush 216 22
+ fill vent4 black_brush 216 28
+ fill vent4 black_brush 216 34
+ draw logo black_pen1 261 33
+ fill brand black_brush 261 38
+ fill model black_brush 74 38
+ fill laserBG yellow_brush 14 37
+ fill laser black_brush 20 38
+ option "brackets and screws"
+ draw bracket dark_grey_pen1 -20.5 0
+ fill bracket light_grey_brush -20.5 0
+ draw bracket dark_grey_pen1 464.5 0 -1 1
+ fill bracket light_grey_brush 464.5 0 -1 1
+ fill screw light_grey_brush2 -15 2
+ draw screw dark_grey_pen1 -15 2
+ fill screwhead dark_grey_brush -15 2
+ fill screw light_grey_brush2 450.5 2
+ draw screw dark_grey_pen1 450.5 2
+ fill screwhead dark_grey_brush 450.5 2
+ fill screw light_grey_brush2 -15 33
+ draw screw dark_grey_pen1 -15 33
+ fill screwhead dark_grey_brush -15 33
+ fill screw light_grey_brush2 450.5 33
+ draw screw dark_grey_pen1 450.5 33
+ fill screwhead dark_grey_brush 450.5 33
+ script "1U 4 ring cable management panel" 484 44 .3
+ align + screw  9  6  474  6  9  40  474  40
+ path name "1U Panel"
+ path addrectangle 0 0 484 44
+ path name bracket1
+ path addrectangle 0 0 10 43
+ path name bracket2
+ path addlines 0 1 10 1 6 2 -5 2
+ path name bracket3
+ path addlines 0 43 10 43 6 40 -6 40
+ path name bracket4
+ path addrectangle -5 2 11 25
+ path name bracket5
+ path addlines -7 20 4 20 5 40 -6 40
+ path name bracket6
+ path addlines 0 0 10 0 6 1 -5 1
+ path name bracket7
+ path addlines 0 44 10 44 6 39 -5 39
+ path name bracket8
+ path addrectangle -4 2 11 25
+ path name bracket9
+ path addlines -5 20 5 20 5 39 -4 39
+ path name screw
+ path addarc 0 0 8 8 0 360
+ path name screwhead
+ path startfigure
+ path addlines 3 2 2 3 3 4 2 5 3 6 4 5 5 6 6 5 5 4 6 3 5 2 4 3
+ path closefigure
+ pen black_pen1 &h000000& 255 0.5
+ pen black_pen0.5 &h000000& 255 0.25
+ pen grey_pen1 &hd0d0d0& 255 0.25
+ pen dark_grey_pen1 &h606060& 255 0.5
+ pen yellowpen5 &h80FFFF& 255 0.5
+ pen yellowpen4 &h80FFFF& 255 1
+ pen light_blue_pen &hFDF8B3& 255 1
+ pen whitepen1 &hffffff& 255 0.125
+ pen dark_grey_pen4 &h606060& 255 1.75
+ brush yellowbrush &h80FFFF& 255
+ brush blue_brush &h776F09& 255
+ brush grey_brush &h606060& 255
+ brush light_grey_brush &ha0a0a0& 255
+ brush light_grey_brush2 &hc0c0c0& 255
+ brush yellow_brush &h80FFFF& 255
+ brush black_brush &h000000& 255
+ brush white_brush &hffffff& 255
+ brush dark_grey_brush &h606060& 255
+ brush light_blue_brush &hFDF8B3& 255
+ brush bracket1 &h101010& 255
+ brush bracket2 &h707070& 255
+ brush bracket3 &h101010& 255
+ brush bracket4 &h303030& 255
+ brush bracket5 &h202020& 255
+ fill "1U Panel" black_brush
+ fill "bracket1" bracket1 50 0
+ fill "bracket2" bracket2 50 0
+ fill "bracket3" bracket3 50 0
+ fill "bracket4" bracket4 50 0
+ fill "bracket5" bracket5 50 0
+ fill "bracket1" bracket1 176 0
+ fill "bracket6" bracket2 176 0
+ fill "bracket7" bracket3 176 0
+ fill "bracket8" bracket4 176 0
+ fill "bracket9" bracket5 176 0
+ fill "bracket1" bracket1 298 0 -1 1
+ fill "bracket6" bracket2 298 0 -1 1
+ fill "bracket7" bracket3 298 0 -1 1
+ fill "bracket8" bracket4 298 0 -1 1
+ fill "bracket9" bracket5 298 0 -1 1
+ fill "bracket1" bracket1 424 0 -1 1
+ fill "bracket2" bracket2 424 0 -1 1
+ fill "bracket3" bracket3 424 0 -1 1
+ fill "bracket4" bracket4 424 0 -1 1
+ fill "bracket5" bracket5 424 0 -1 1
+ fill screw light_grey_brush2 5 2
+ draw screw dark_grey_pen1 5 2
+ fill screwhead dark_grey_brush 5 2
+ fill screw light_grey_brush2 470.5 2
+ draw screw dark_grey_pen1 470.5 2
+ fill screwhead dark_grey_brush 470.5 2
+ fill screw light_grey_brush2 5 33
+ draw screw dark_grey_pen1 5 33
+ fill screwhead dark_grey_brush 5 33
+ fill screw light_grey_brush2 470.5 33
+ draw screw dark_grey_pen1 470.5 33
+ fill screwhead dark_grey_brush 470.5 33
+ script "Server 2U" 444 87 2.1
+ align + screw -11  6  454  6
+ path name "2U Box"
+ path addrectangle 0 0 445 87
+ path name blackness
+ path addrectangle 2 2 442 83
+ path name chassish
+ path addline 0 0 445 0
+ path name chassisv
+ path addline 0 0 0 87
+ path name chassisv2
+ path addline 0 0 0 57
+ path name vent
+ path startfigure
+ path addline 0 7 110 7
+ path startfigure
+ path addline 0 14 110 14
+ path startfigure
+ path addline 0 21 110 21
+ path startfigure
+ path addline 7 0 7 28
+ path startfigure
+ path addline 14 0 14 28
+ path startfigure
+ path addline 21 0 21 28
+ path startfigure
+ path addline 28 0 28 28
+ path startfigure
+ path addline 35 0 35 28
+ path startfigure
+ path addline 42 0 42 28
+ path startfigure
+ path addline 49 0 49 28
+ path startfigure
+ path addline 56 0 56 28
+ path startfigure
+ path addline 63 0 63 28
+ path startfigure
+ path addline 70 0 70 28
+ path startfigure
+ path addline 77 0 77 28
+ path startfigure
+ path addline 84 0 84 28
+ path startfigure
+ path addline 91 0 91 28
+ path startfigure
+ path addline 98 0 98 28
+ path startfigure
+ path addline 105 0 105 28
+ path name chassisv3
+ path addline 0 0 0 30
+ path name blank
+ path addrectangle 1 1 106 25
+ path name disk1
+ path addrectangle 0 1 110 14
+ path name disk2
+ path addrectangle 0 1 14 25
+ path name LEDPanel
+ path addlines 0 0 55 0 55 29 48 29 48 16 0 16
+ path name disklever
+ path addrectangle 0 0 12 8
+ path name diskpanel
+ path addrectangle 0 0 18 6
+ path name LED
+ path addarc 0 0 5 5 0 360
+ path name handle1
+ path addrectangle 0 0 12 12
+ path name handle2
+ path addrectangle 0 0 8 8
+ path name handle3
+ path addrectangle 0 0 7 50
+ path name handle4
+ path addrectangle 0 0 7 15
+ path name bracket
+ path addlines 0 0 20 0 20 86 0 86 0 0
+ path name screw
+ path addarc 0 0 8 8 0 360
+ path name screwhead
+ path startfigure
+ path addlines 3 2 2 3 3 4 2 5 3 6 4 5 5 6 6 5 5 4 6 3 5 2 4 3
+ path closefigure
+ pen black_pen1 &h000000& 255 0.5
+ pen dark_grey_pen1 &h606060& 255 0.5
+ pen dark_grey_pen4 &h606060& 255 1.75
+ pen grey_pen2 &h818181& 255 2
+ pen grey_pen3 &hCFCFCF& 255 2.5
+ pen blankpen &h616161& 255 4
+ brush light_grey_brush &hAAAAAA& 255
+ brush light_grey_brush2 &hc0c0c0& 255
+ brush light_grey_brush3 &he0e0e0& 255
+ brush white_brush &hffffff& 255
+ brush dark_grey_brush &h202020& 255
+ brush blackbrush &h000000& 255
+ brush diskbrush1 &h3A3A3A& 255
+ brush leverred &h6D4A88& 255
+ brush ledgreen &h0ED13F& 255
+ brush ledred &h0000B3& 255
+ brush ledwhite &hDDDDDD& 255
+ brush ledamber &h1258B8& 255
+ brush handlebrush1 &h666666& 255
+ brush handlebrush2 &hF2F2F2& 255
+ brush handlebrush3 &h9D9D9D& 255
+ brush handlebrush4 &h8F8F8F& 255
+ fill "2U Box" blackbrush 0 0
+ draw "2U Box" grey_pen2 0 0
+ draw vent grey_pen3 0 1
+ draw vent grey_pen3 0 31
+ draw vent grey_pen3 0 60
+ draw vent grey_pen3 111 1
+ draw vent grey_pen3 111 31
+ draw vent grey_pen3 111 60
+ draw vent grey_pen3 222 1
+ draw vent grey_pen3 222 31
+ draw vent grey_pen3 222 60
+ draw vent grey_pen3 327 1
+ draw vent grey_pen3 333 31
+ draw vent grey_pen3 333 60
+ draw chassisv3 grey_pen2 370 1
+ draw blank blankpen 1 1
+ draw blank blankpen 112 1
+ fill disk1 diskbrush1 0 45
+ fill disk2 diskbrush1 96 30
+ fill disk1 diskbrush1 0 72
+ fill disk2 diskbrush1 96 50
+ fill disk1 diskbrush1 111 45
+ fill disk2 diskbrush1 207 30
+ fill disk1 diskbrush1 111 72
+ fill disk2 diskbrush1 207 50
+ fill disk1 diskbrush1 222 45
+ fill disk2 diskbrush1 320 30
+ fill disk1 diskbrush1 222 72
+ fill disk2 diskbrush1 320 50
+ fill disk1 diskbrush1 333 45
+ fill disk2 diskbrush1 430 30
+ fill disk1 diskbrush1 333 72
+ fill disk2 diskbrush1 430 50
+ draw chassish grey_pen2 0 30
+ draw chassish grey_pen2 0 60
+ draw chassisv grey_pen2 111 0
+ draw chassisv grey_pen2 222 0
+ draw chassisv2 grey_pen2 333 30
+ fill LEDPanel diskbrush1 389 1
+ fill disklever leverred 83 48
+ fill disklever leverred 195 48
+ fill disklever leverred 307 48
+ fill disklever leverred 419 48
+ fill disklever leverred 83 76
+ fill disklever leverred 195 76
+ fill disklever leverred 307 76
+ fill disklever leverred 419 76
+ fill diskpanel light_grey_brush 50 49
+ fill diskpanel light_grey_brush 162 49
+ fill diskpanel light_grey_brush 274 49
+ fill diskpanel light_grey_brush 386 49
+ fill diskpanel light_grey_brush 50 77
+ fill diskpanel light_grey_brush 162 77
+ fill diskpanel light_grey_brush 274 77
+ fill diskpanel light_grey_brush 386 77
+ fill LED ledwhite 418 8
+ fill LED ledgreen 413 8
+ fill LED ledwhite 408 8
+ fill LED ledwhite 403 8
+ fill LED ledred 398 8
+ fill LED ledamber 393 8
+ draw bracket dark_grey_pen1 -20.5 1
+ fill bracket light_grey_brush -20.5 1
+ draw bracket dark_grey_pen1 465.5 1 -1 1
+ fill bracket light_grey_brush 465.5 1 -1 1
+ fill screw light_grey_brush2 -15 33
+ draw screw dark_grey_pen1 -15 33
+ fill screwhead dark_grey_brush -15 33
+ fill screw light_grey_brush2 450.5 33
+ draw screw dark_grey_pen1 450.5 33
+ fill screwhead dark_grey_brush 450.5 33
+ fill screw light_grey_brush2 -15 46.4
+ draw screw dark_grey_pen1 -15 46.5
+ fill screwhead dark_grey_brush -15 46.5
+ fill screw light_grey_brush2 450.5 46.4
+ draw screw dark_grey_pen1 450.5 46.5
+ fill screwhead dark_grey_brush 450.5 46.5
+ fill handle1 handlebrush1 -15 6
+ fill handle1 handlebrush1 -15 70
+ fill handle2 handlebrush2 -13 10
+ fill handle3 handlebrush3 -14 18
+ fill handle4 handlebrush4 -13 63
+ fill handle1 handlebrush1 449 6
+ fill handle1 handlebrush1 449 70
+ fill handle2 handlebrush2 452 10
+ fill handle3 handlebrush3 453 18
+ fill handle4 handlebrush4 452 63
+ script "Generic 1U" 444 44 .4
+ align + screw -11  6  454  6
+ path name "1U Box"
+ path addrectangle 0 0 444 44
+ path name bracket
+ path addlines 0 0 20 0 20 44 0 44 0 0
+ path startfigure
+ path addarc 5 4 5 5 90 180
+ path addarc 9 4 5 5 270 180
+ path closefigure
+ path startfigure
+ path addarc 5 35 5 5 90 180
+ path addarc 9 35 5 5 270 180
+ path closefigure
+ path startfigure
+ path addarc 8 20 4 4 90 360
+ path name screw
+ path addarc 0 0 8 8 0 360
+ path name screwhead
+ path startfigure
+ path addlines 3 2 2 3 3 4 2 5 3 6 4 5 5 6 6 5 5 4 6 3 5 2 4 3
+ path closefigure
+ pen black_pen1 &h000000& 255 0.5
+ pen dark_grey_pen1 &h606060& 255 0.5
+ pen dark_grey_pen4 &h606060& 255 1.75
+ brush light_grey_brush &ha0a0a0& 255
+ brush light_grey_brush2 &hc0c0c0& 255
+ brush light_grey_brush3 &he0e0e0& 255
+ brush white_brush &hffffff& 255
+ brush dark_grey_brush &h606060& 255
+ fill "1U Box" light_grey_brush3 0 0
+ draw "1U Box" black_pen1 0 0
+ option "brackets and screws"
+ draw bracket dark_grey_pen1 -20.5 0
+ fill bracket light_grey_brush -20.5 0
+ draw bracket dark_grey_pen1 464.5 0 -1 1
+ fill bracket light_grey_brush 464.5 0 -1 1
+ fill screw light_grey_brush2 -15 2
+ draw screw dark_grey_pen1 -15 2
+ fill screwhead dark_grey_brush -15 2
+ fill screw light_grey_brush2 450.5 2
+ draw screw dark_grey_pen1 450.5 2
+ fill screwhead dark_grey_brush 450.5 2
+ fill screw light_grey_brush2 -15 33
+ draw screw dark_grey_pen1 -15 33
+ fill screwhead dark_grey_brush -15 33
+ fill screw light_grey_brush2 450.5 33
+ draw screw dark_grey_pen1 450.5 33
+ fill screwhead dark_grey_brush 450.5 33
