@@ -10,4 +10,4 @@ For example you might use pyndg to add 100 devices and links to a diagram, then 
 See the examples folder for some usage examples.
 
 # Installation
-git clone https://github.com/VicarOfCrom/pyndg.git
+git clone https://github.com/JothamLentz/pyndg.git
