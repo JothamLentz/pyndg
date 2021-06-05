@@ -175,16 +175,16 @@ class Diagram:
                   X: str = '!',
                   Y: str = '0',
                   Font_Name: str = "!",
-                  Size: str = "!",
-                  Bold: str = "!",
-                  Italic: str = "!",
+                  Size: int = 14,
+                  Bold: bool = False,
+                  Italic: bool = False,
                   UL: bool = False,
-                  ST: str = "!",
+                  ST: bool = False,
                   Colour: str = "&h0&",
                   Backgnd: str = "!",  # maybe bool
                   Locked: str = "!",  # maybe bool
                   Rotate: int = 0,
-                  Ftranspcy: int = 0,
+                  Ftranspcy: int = 255,
                   Btranspcy: int = 0,
                   Layer: int = 0,
                   Style: str = "!",
@@ -241,8 +241,8 @@ class Diagram:
                    Rotate: int = 0,
                    Rflip: int = 0,
                    Backgnd: bool = False,
-                   Width: int = 100,
-                   Height: int = 100,
+                   Width: int = 0,
+                   Height: int = 0,
                    Locked: bool = False,
                    Toolset: int = 0,
                    Var1: str = '!',
@@ -250,12 +250,22 @@ class Diagram:
 
         Index = len(self.objects) + 1
         # This code changes the way the labels are formatted depending on what type of object is created.
-        if Type == 'routerc2':
-            Caption_Lbl = self.add_label(Text=name, Parent_Object=Index, Style='DeviceNameWhite', Type='object', X=0, Y=25)
-            Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip', X=0, Y='N')
+        print(Type)
+        if Type == 'routerc1':
+            Caption_Lbl = self.add_label(Text=name,
+                                         Parent_Object=Index,
+                                         Style='DeviceNameWhite',
+                                         Type='object',
+                                         X='0',
+                                         Y='25',
+                                         Font_Name='Microsoft Sans Serif')
+            Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip', X='0', Y='-44')
         elif Type == 'switch':
-            Caption_Lbl: int = self.add_label(Text=name, Parent_Object=Index, Type='object', Style='DeviceNameWhite', X='0',Y='18')
-            Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip', X=0, Y='S')
+            Caption_Lbl: int = self.add_label(Text=name, Parent_Object=Index, Type='object', Style='DeviceNameWhite', X='0', Y='18')
+            Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip', X='0', Y='-44')
+        elif Type == 'cloud5':
+            Caption_Lbl: int = self.add_label(Text=name, Parent_Object=Index, Type='object', X='-10', Y='-12')
+            Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip', X='0', Y='12')
         else:
             Caption_Lbl = self.add_label(Text=name, Parent_Object=Index, Type='object')
             Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip')
