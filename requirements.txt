@@ -1,2 +1,6 @@
-ciscoconfparse
-easygui
+ciscoconfparse~=1.5.30
+easygui~=0.98.2
+pyperclip~=1.8.2
+numpy~=1.20.3
+pandas~=1.2.4
+tabulate~=0.8.9

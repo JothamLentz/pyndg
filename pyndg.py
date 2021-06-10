@@ -7,6 +7,8 @@
 # """
 
 from itertools import groupby
+import pyperclip
+import numpy as np
 import pandas as pd
 import io
 import os
@@ -18,6 +20,17 @@ scripts_list = ['Script_Objects_Tables', ' align', ' script', ' align', ' path',
 
 def display_table(t):
     print(tabulate(t, headers='keys', tablefmt='psql'))
+
+
+def get_objects_from_clipboard():
+    text = pyperclip.paste().split('\n')
+    if not text[0].startswith("Network Notepad Clipping"):
+        print("ERROR Network Notepad Object not in clipboard")
+        quit()
+    else:
+        object_nums = [int(l.split(' ')[1]) for l in text if l.startswith('object')]
+        print(object_nums)
+        return object_nums
 
 
 class NetworkNotepad:
@@ -348,3 +361,25 @@ class Diagram:
         self.Link_Table = self.Link_Table.append(new_link, ignore_index=True)
         return Index
 
+    def array_move(self, obj_nums: list, vertical: bool = True, spacing: int = 50):
+        # Given a list of object numbers, evenly space them vertically or horizontally
+        # Topmost or leftmost sets starting position
+        positions = self.objects[self.objects.Index.isin(obj_nums)]  # Would like to combine these 2 lines
+        selection = positions[['Index', 'X', 'Y']]
+        if vertical:
+            vpos = selection.sort_values(by='Y')
+            x1 = vpos.iloc[0]['X']
+            y1 = vpos.iloc[0]['Y']
+            vpos['X'] = x1
+            vpos['Y'] = np.arange(y1, len(obj_nums)*spacing+y1, spacing)
+            for o, x, y in vpos.itertuples(index=False):
+                self.move_object(o, x, y)
+
+        else:  # Horizontal
+            hpos = selection.sort_values(by='X')
+            x1 = hpos.iloc[0]['X']
+            y1 = hpos.iloc[0]['Y']
+            hpos['X'] = np.arange(x1, len(obj_nums)*spacing+x1, spacing)
+            hpos['Y'] = y1
+            for o, x, y in hpos.itertuples(index=False):
+                self.move_object(o, x, y)
