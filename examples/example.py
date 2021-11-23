@@ -5,7 +5,7 @@
 #    to the first page
 # """
 from cfgMgmt.backup import bk
-import NetworkNotepad.pyndg as pyndg
+import pyndg as pyndg
 
 if __name__ == "__main__":
     """For testing"""

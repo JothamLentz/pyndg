@@ -29,7 +29,6 @@ def get_objects_from_clipboard():
         quit()
     else:
         object_nums = [int(l.split(' ')[1]) for l in text if l.startswith('object')]
-        print(object_nums)
         return object_nums
 
 
@@ -141,6 +140,22 @@ class Diagram:
         self.objects.loc[self.objects['Index'] == obj, ['X']] = x
         self.objects.loc[self.objects['Index'] == obj, ['Y']] = y
 
+    def resize_object(self, obj: int, x_scale: int, y_scale: int):
+        """resize an object 0 means unchanged"""
+        if x_scale > 0:
+            self.objects.loc[self.objects['Index'] == obj, ['X_scale']] = x_scale
+        if y_scale > 0:
+            self.objects.loc[self.objects['Index'] == obj, ['Y_scale']] = y_scale
+
+    def bulk_resize(self, object_list: list, x_scale: int, y_scale: int):
+        """resize a list of objects"""
+        for o in object_list:
+            self.resize_object(o, x_scale, y_scale)
+
+    def retype_object(self, obj: int, new_type: str):
+        """Change object type given objectnumber and new type"""
+        self.objects.loc[self.objects['Index'] == obj, ['Type']] = new_type
+
     def get_object_as_dict(self, obj: int):
         selection = self.objects[self.objects['Index'] == obj]
         return selection.to_dict('records')[0]
@@ -161,6 +176,15 @@ class Diagram:
     def get_object_by_ip(self, ip: str):
         """Given an object ip Label, return a list of object numbers with that ip label"""
         num = self.labels[(self.labels['Text'] == ip) & (self.labels['Type'] == 'ip')]['Parent_Object'].tolist()
+        if len(num) == 0:
+            num = None
+        elif len(num) == 1:
+            num = num[0]
+        return num
+
+    def get_objects_by_type(self, object_type: str):
+        """Given an NN Object Type, return a list of object numbers with that type"""
+        num = self.objects[(self.objects['Type'] == object_type)]['Index'].tolist()
         if len(num) == 0:
             num = None
         elif len(num) == 1:
@@ -263,7 +287,7 @@ class Diagram:
 
         Index = len(self.objects) + 1
         # This code changes the way the labels are formatted depending on what type of object is created.
-        print(Type)
+        # print(Type)
         if Type == 'routerc1':
             Caption_Lbl = self.add_label(Text=name,
                                          Parent_Object=Index,
@@ -278,6 +302,9 @@ class Diagram:
             Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip', X='0', Y='-44')
         elif Type == 'cloud5':
             Caption_Lbl: int = self.add_label(Text=name, Parent_Object=Index, Type='object', X='-10', Y='-12')
+            Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip', X='0', Y='12')
+        elif Type == 'TableVlan':
+            Caption_Lbl: int = self.add_label(Text=name, Parent_Object=Index, Type='object', X='0', Y='-12')
             Addr_Lbl = self.add_label(Text=ip, Parent_Object=Index, Type='ip', X='0', Y='12')
         else:
             Caption_Lbl = self.add_label(Text=name, Parent_Object=Index, Type='object')

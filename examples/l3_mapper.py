@@ -15,7 +15,6 @@ import re
 import sys
 import easygui
 import pyndg as pyndg
-# from CLI_Analyzer.devices import getMgmtIP
 
 # TODO set layers for all objects: hosts1, networks1, links3. (almost done)
 # TODO add hyperlink to Network Notepad file format
@@ -39,6 +38,7 @@ if __name__ == "__main__":
     for cfgFile in configFiles:
 
         l3_intfs = {}
+        print(f"parsing file {cfgFile}")
 
         # create CiscoConfParse object
         confparse = CiscoConfParse(cfgFile)
@@ -110,8 +110,6 @@ if __name__ == "__main__":
             # Use last interface name alphabetically as management IP, correct manually if wrong
             mgmtInt = sorted(l3_intfs.keys(), reverse=True)[0]
             mgmtIP = l3_intfs[mgmtInt]['ipv4'].ip
-            print(l3_intfs)
-            print(mgmtIP)
             host_object_num = ndg.page[p].add_object(name=hostName,
                                                      ip=mgmtIP,
                                                      Type=objectType)
@@ -121,12 +119,21 @@ if __name__ == "__main__":
                 if l3_intfs[intf]['ipv4'].prefixlen > 28:
                     net_type = "L3_Transit_int"
                 else:
-                    net_type = "cloud5"
+                    net_type = "TableVlan"
+                # This is and object I created. Paste this into your template
+                # Shapes_Table Name Type Variant Colour1 Transpcy1 Colour2 Transpcy2 Colour3 Transpcy3 Dim1 Dim2 FillX1 FillY1 FillX2 FillY2 Width Height Borderstyle Dashcap Antialias
+                #  define_shape TableVlan 2 0 &hFFFFFF& 255 &h0& 0 &hC0C0C0& 199 1 0 50 0 50 100 100 25 0 0 0
                 network = str(l3_intfs[intf]['ipv4'].network)
                 # check if there is already a network object created
+                print(f"working on this interface:{intf}\n{l3_intfs[intf]}")
+                if intf.startswith('Vlan'):
+                    VL = intf.strip('Vlan')
+                    net_name = f"VL{VL}: {l3_intfs[intf]['description']}"
+                else:
+                    net_name = "Network"
                 net_object_num = ndg.page[p].get_object_by_ip(network)
                 if not net_object_num:
-                    net_object_num = ndg.page[p].add_object(name='Network', ip=network, Type=net_type, Y=750)
+                    net_object_num = ndg.page[p].add_object(name=net_name, ip=network, Type=net_type, Y=750)
 
                 link_num = ndg.page[p].get_link(host_object_num, net_object_num)
                 if not link_num:
